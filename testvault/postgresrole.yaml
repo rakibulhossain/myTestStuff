@@ -1,0 +1,17 @@
+apiVersion: engine.kubevault.com/v1alpha1
+kind: PostgresRole
+metadata:
+  name: pg-role
+  namespace: demo
+spec:
+  secretEngineRef:
+    name: postgres-secret-engine
+  defaultTTL: "300m"
+  creationStatements:
+    - "CREATE ROLE \"{{name}}\" WITH LOGIN PASSWORD '{{password}}';"
+    - "GRANT All PRIVILEGES ON DATABASE test TO \"{{name}}\";"
+  revocationStatements:
+    - "REVOKE All PRIVILEGES ON DATABASE %s FROM \"{{name}}\";"
+    - "REASSIGN OWNED BY \"{{name}}\" TO POSTGRES;"
+    - "DROP OWNED BY \"{{name}}\";"
+    - "DROP ROLE IF EXISTS \"{{name}}\";"

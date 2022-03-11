@@ -1,0 +1,17 @@
+apiVersion: stash.appscode.com/v1beta1
+kind: RestoreSession
+metadata:
+  name: demo-pg-restore
+  namespace: demo
+spec:
+  task:
+    name: postgres-restore-13.1
+  repository:
+    name: s3-repo
+  target:
+    ref:
+      apiVersion: appcatalog.appscode.com/v1alpha1
+      kind: AppBinding
+      name: demo-pg
+  rules:
+  - snapshots: [latest]

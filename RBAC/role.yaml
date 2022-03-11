@@ -1,0 +1,186 @@
+
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRole
+metadata:
+  creationTimestamp: null
+  name: manager-role
+rules:
+- apiGroups:
+  - ""
+  resources:
+  - '*'
+  verbs:
+  - '*'
+- apiGroups:
+  - appcatalog.appscode.com
+  resources:
+  - '*'
+  verbs:
+  - '*'
+- apiGroups:
+  - batch
+  resources:
+  - '*'
+  verbs:
+  - '*'
+- apiGroups:
+  - catalog.kubedb.com
+  resources:
+  - '*'
+  verbs:
+  - '*'
+- apiGroups:
+  - engine.kubevault.com
+  resources:
+  - '*'
+  verbs:
+  - '*'
+- apiGroups:
+  - kubedb.com
+  resources:
+  - '*'
+  verbs:
+  - '*'
+- apiGroups:
+  - kubevault.com
+  resources:
+  - '*'
+  verbs:
+  - '*'
+- apiGroups:
+  - schema.kubedb.com
+  resources:
+  - mariadbdatabases
+  verbs:
+  - create
+  - delete
+  - get
+  - list
+  - patch
+  - update
+  - watch
+- apiGroups:
+  - schema.kubedb.com
+  resources:
+  - mariadbdatabases/finalizers
+  verbs:
+  - update
+- apiGroups:
+  - schema.kubedb.com
+  resources:
+  - mariadbdatabases/status
+  verbs:
+  - get
+  - patch
+  - update
+- apiGroups:
+  - schema.kubedb.com
+  resources:
+  - mongodbdatabases
+  verbs:
+  - create
+  - delete
+  - get
+  - list
+  - patch
+  - update
+  - watch
+- apiGroups:
+  - schema.kubedb.com
+  resources:
+  - mongodbdatabases/finalizers
+  verbs:
+  - update
+- apiGroups:
+  - schema.kubedb.com
+  resources:
+  - mongodbdatabases/status
+  verbs:
+  - get
+  - patch
+  - update
+- apiGroups:
+  - schema.kubedb.com
+  resources:
+  - mysqldatabases
+  verbs:
+  - create
+  - delete
+  - get
+  - list
+  - patch
+  - update
+  - watch
+- apiGroups:
+  - schema.kubedb.com
+  resources:
+  - mysqldatabases/finalizers
+  verbs:
+  - update
+- apiGroups:
+  - schema.kubedb.com
+  resources:
+  - mysqldatabases/status
+  verbs:
+  - get
+  - patch
+  - update
+- apiGroups:
+  - schema.kubedb.com
+  resources:
+  - postgresdatabases
+  verbs:
+  - create
+  - delete
+  - get
+  - list
+  - patch
+  - update
+  - watch
+- apiGroups:
+  - schema.kubedb.com
+  resources:
+  - postgresdatabases/finalizers
+  verbs:
+  - update
+- apiGroups:
+  - schema.kubedb.com
+  resources:
+  - postgresdatabases/status
+  verbs:
+  - get
+  - patch
+  - update
+- apiGroups:
+  - schema.kubedb.com
+  resources:
+  - redisdatabases
+  verbs:
+  - create
+  - delete
+  - get
+  - list
+  - patch
+  - update
+  - watch
+- apiGroups:
+  - schema.kubedb.com
+  resources:
+  - redisdatabases/finalizers
+  verbs:
+  - update
+- apiGroups:
+  - schema.kubedb.com
+  resources:
+  - redisdatabases/status
+  verbs:
+  - get
+  - patch
+  - update
+- apiGroups:
+  - stash.appscode.com
+  resources:
+  - '*'
+  verbs:
+  - '*'

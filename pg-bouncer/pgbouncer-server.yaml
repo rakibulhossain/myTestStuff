@@ -1,0 +1,26 @@
+apiVersion: kubedb.com/v1alpha2
+kind: PgBouncer
+metadata:
+  name: pgbouncer-server
+  namespace: db
+spec:
+  version: "1.11.0"
+  replicas: 1
+  databases:
+  - alias: "testdb"
+    databaseName: "test"
+    databaseRef:
+      name: "demo-pg"
+      namespace: demo
+  - alias: "postgres"
+    databaseName: "postgres"
+    databaseRef:
+      name: "demo-pg"
+      namespace: demo
+  connectionPool:
+    maxClientConnections: 20
+    reservePoolSize: 5
+    adminUsers:
+    - rakib
+  userListSecretRef:
+    name: db-user-pass

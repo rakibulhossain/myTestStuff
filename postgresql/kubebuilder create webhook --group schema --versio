@@ -1,0 +1,1 @@
+kubebuilder create webhook --group schema --version v1alpha1 --kind PostgresDatabase --defaulting --programmatic-validation

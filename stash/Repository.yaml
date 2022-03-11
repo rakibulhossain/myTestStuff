@@ -1,0 +1,16 @@
+apiVersion: stash.appscode.com/v1alpha1
+kind: Repository
+metadata:
+  name: s3-repo
+  namespace: test
+spec:
+  backend:
+    s3:
+      endpoint: https://us-southeast-1.linodeobjects.com # use server URL for s3 compatible other 
+      bucket: schemamanagerstashdemo
+      region: us-southeast-1
+      prefix: test/postgres/test-pg
+    storageSecretName: s3-secret
+  usagePolicy:
+    allowedNamespaces:
+      from: All

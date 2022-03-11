@@ -1,0 +1,1176 @@
+apiVersion: v1
+items:
+- apiVersion: catalog.kubedb.com/v1alpha1
+  kind: PostgresVersion
+  metadata:
+    annotations:
+      meta.helm.sh/release-name: kubedb
+      meta.helm.sh/release-namespace: kubedb
+    creationTimestamp: "2022-02-02T05:21:01Z"
+    generation: 1
+    labels:
+      app.kubernetes.io/instance: kubedb
+      app.kubernetes.io/managed-by: Helm
+      app.kubernetes.io/name: kubedb-catalog
+      app.kubernetes.io/version: v2021.12.21
+      helm.sh/chart: kubedb-catalog-v2021.12.21
+    name: "10.16"
+    resourceVersion: "1212"
+    uid: 91b67d1e-d91a-4669-8a35-d6d4d89a7f99
+  spec:
+    coordinator:
+      image: kubedb/pg-coordinator:v0.8.0
+    db:
+      image: postgres:10.16-alpine
+    distribution: Official
+    exporter:
+      image: prometheuscommunity/postgres-exporter:v0.9.0
+    initContainer:
+      image: kubedb/postgres-init:0.4.0
+    podSecurityPolicies:
+      databasePolicyName: postgres-db
+    securityContext:
+      runAsAnyNonRoot: false
+      runAsUser: 70
+    stash:
+      addon:
+        backupTask:
+          name: postgres-backup-10.14
+        restoreTask:
+          name: postgres-restore-10.14
+    version: "10.16"
+- apiVersion: catalog.kubedb.com/v1alpha1
+  kind: PostgresVersion
+  metadata:
+    annotations:
+      meta.helm.sh/release-name: kubedb
+      meta.helm.sh/release-namespace: kubedb
+    creationTimestamp: "2022-02-02T05:21:01Z"
+    generation: 1
+    labels:
+      app.kubernetes.io/instance: kubedb
+      app.kubernetes.io/managed-by: Helm
+      app.kubernetes.io/name: kubedb-catalog
+      app.kubernetes.io/version: v2021.12.21
+      helm.sh/chart: kubedb-catalog-v2021.12.21
+    name: 10.16-debian
+    resourceVersion: "1210"
+    uid: 0b4f50b7-7c35-4a6e-ae3b-604298ca88be
+  spec:
+    coordinator:
+      image: kubedb/pg-coordinator:v0.8.0
+    db:
+      image: postgres:10.16
+    distribution: Official
+    exporter:
+      image: prometheuscommunity/postgres-exporter:v0.9.0
+    initContainer:
+      image: kubedb/postgres-init:0.4.0
+    podSecurityPolicies:
+      databasePolicyName: postgres-db
+    securityContext:
+      runAsAnyNonRoot: true
+      runAsUser: 999
+    stash:
+      addon:
+        backupTask:
+          name: postgres-backup-10.14
+        restoreTask:
+          name: postgres-restore-10.14
+    version: "10.16"
+- apiVersion: catalog.kubedb.com/v1alpha1
+  kind: PostgresVersion
+  metadata:
+    annotations:
+      meta.helm.sh/release-name: kubedb
+      meta.helm.sh/release-namespace: kubedb
+    creationTimestamp: "2022-02-02T05:21:01Z"
+    generation: 1
+    labels:
+      app.kubernetes.io/instance: kubedb
+      app.kubernetes.io/managed-by: Helm
+      app.kubernetes.io/name: kubedb-catalog
+      app.kubernetes.io/version: v2021.12.21
+      helm.sh/chart: kubedb-catalog-v2021.12.21
+    name: "10.19"
+    resourceVersion: "1224"
+    uid: c28d0488-0f1a-4979-8f7e-631de9af05ad
+  spec:
+    coordinator:
+      image: kubedb/pg-coordinator:v0.8.0
+    db:
+      image: postgres:10.19-bullseye
+    distribution: Official
+    exporter:
+      image: prometheuscommunity/postgres-exporter:v0.9.0
+    initContainer:
+      image: kubedb/postgres-init:0.4.0
+    podSecurityPolicies:
+      databasePolicyName: postgres-db
+    securityContext:
+      runAsAnyNonRoot: false
+      runAsUser: 70
+    stash:
+      addon:
+        backupTask:
+          name: postgres-backup-10.14
+        restoreTask:
+          name: postgres-restore-10.14
+    version: "10.19"
+- apiVersion: catalog.kubedb.com/v1alpha1
+  kind: PostgresVersion
+  metadata:
+    annotations:
+      meta.helm.sh/release-name: kubedb
+      meta.helm.sh/release-namespace: kubedb
+    creationTimestamp: "2022-02-02T05:21:01Z"
+    generation: 1
+    labels:
+      app.kubernetes.io/instance: kubedb
+      app.kubernetes.io/managed-by: Helm
+      app.kubernetes.io/name: kubedb-catalog
+      app.kubernetes.io/version: v2021.12.21
+      helm.sh/chart: kubedb-catalog-v2021.12.21
+    name: 10.19-bullseye
+    resourceVersion: "1215"
+    uid: e28e4e2c-6a44-4a8f-a1ba-f6fce1621073
+  spec:
+    coordinator:
+      image: kubedb/pg-coordinator:v0.8.0
+    db:
+      image: postgres:10.19-bullseye
+    distribution: Official
+    exporter:
+      image: prometheuscommunity/postgres-exporter:v0.9.0
+    initContainer:
+      image: kubedb/postgres-init:0.4.0
+    podSecurityPolicies:
+      databasePolicyName: postgres-db
+    securityContext:
+      runAsAnyNonRoot: true
+      runAsUser: 999
+    stash:
+      addon:
+        backupTask:
+          name: postgres-backup-10.14
+        restoreTask:
+          name: postgres-restore-10.14
+    version: "10.19"
+- apiVersion: catalog.kubedb.com/v1alpha1
+  kind: PostgresVersion
+  metadata:
+    annotations:
+      meta.helm.sh/release-name: kubedb
+      meta.helm.sh/release-namespace: kubedb
+    creationTimestamp: "2022-02-02T05:21:01Z"
+    generation: 1
+    labels:
+      app.kubernetes.io/instance: kubedb
+      app.kubernetes.io/managed-by: Helm
+      app.kubernetes.io/name: kubedb-catalog
+      app.kubernetes.io/version: v2021.12.21
+      helm.sh/chart: kubedb-catalog-v2021.12.21
+    name: "11.11"
+    resourceVersion: "1228"
+    uid: c68fd688-ac2c-4655-9b7a-27ae2aa33f65
+  spec:
+    coordinator:
+      image: kubedb/pg-coordinator:v0.8.0
+    db:
+      image: postgres:11.11-alpine
+    distribution: Official
+    exporter:
+      image: prometheuscommunity/postgres-exporter:v0.9.0
+    initContainer:
+      image: kubedb/postgres-init:0.4.0
+    podSecurityPolicies:
+      databasePolicyName: postgres-db
+    securityContext:
+      runAsAnyNonRoot: false
+      runAsUser: 70
+    stash:
+      addon:
+        backupTask:
+          name: postgres-backup-11.9
+        restoreTask:
+          name: postgres-restore-11.9
+    version: "11.11"
+- apiVersion: catalog.kubedb.com/v1alpha1
+  kind: PostgresVersion
+  metadata:
+    annotations:
+      meta.helm.sh/release-name: kubedb
+      meta.helm.sh/release-namespace: kubedb
+    creationTimestamp: "2022-02-02T05:21:01Z"
+    generation: 1
+    labels:
+      app.kubernetes.io/instance: kubedb
+      app.kubernetes.io/managed-by: Helm
+      app.kubernetes.io/name: kubedb-catalog
+      app.kubernetes.io/version: v2021.12.21
+      helm.sh/chart: kubedb-catalog-v2021.12.21
+    name: 11.11-debian
+    resourceVersion: "1226"
+    uid: 5a713b89-33cb-4fd0-9b26-9c824dafd748
+  spec:
+    coordinator:
+      image: kubedb/pg-coordinator:v0.8.0
+    db:
+      image: postgres:11.11
+    distribution: Official
+    exporter:
+      image: prometheuscommunity/postgres-exporter:v0.9.0
+    initContainer:
+      image: kubedb/postgres-init:0.4.0
+    podSecurityPolicies:
+      databasePolicyName: postgres-db
+    securityContext:
+      runAsAnyNonRoot: true
+      runAsUser: 999
+    stash:
+      addon:
+        backupTask:
+          name: postgres-backup-11.9
+        restoreTask:
+          name: postgres-restore-11.9
+    version: "11.11"
+- apiVersion: catalog.kubedb.com/v1alpha1
+  kind: PostgresVersion
+  metadata:
+    annotations:
+      meta.helm.sh/release-name: kubedb
+      meta.helm.sh/release-namespace: kubedb
+    creationTimestamp: "2022-02-02T05:21:01Z"
+    generation: 1
+    labels:
+      app.kubernetes.io/instance: kubedb
+      app.kubernetes.io/managed-by: Helm
+      app.kubernetes.io/name: kubedb-catalog
+      app.kubernetes.io/version: v2021.12.21
+      helm.sh/chart: kubedb-catalog-v2021.12.21
+    name: "11.14"
+    resourceVersion: "1235"
+    uid: 9af91d2d-15bd-4eeb-89a2-5f6ed7852fd4
+  spec:
+    coordinator:
+      image: kubedb/pg-coordinator:v0.8.0
+    db:
+      image: postgres:11.14-alpine
+    distribution: Official
+    exporter:
+      image: prometheuscommunity/postgres-exporter:v0.9.0
+    initContainer:
+      image: kubedb/postgres-init:0.4.0
+    podSecurityPolicies:
+      databasePolicyName: postgres-db
+    securityContext:
+      runAsAnyNonRoot: false
+      runAsUser: 70
+    stash:
+      addon:
+        backupTask:
+          name: postgres-backup-11.9
+        restoreTask:
+          name: postgres-restore-11.9
+    version: "11.14"
+- apiVersion: catalog.kubedb.com/v1alpha1
+  kind: PostgresVersion
+  metadata:
+    annotations:
+      meta.helm.sh/release-name: kubedb
+      meta.helm.sh/release-namespace: kubedb
+    creationTimestamp: "2022-02-02T05:21:01Z"
+    generation: 1
+    labels:
+      app.kubernetes.io/instance: kubedb
+      app.kubernetes.io/managed-by: Helm
+      app.kubernetes.io/name: kubedb-catalog
+      app.kubernetes.io/version: v2021.12.21
+      helm.sh/chart: kubedb-catalog-v2021.12.21
+    name: 11.14-bullseye
+    resourceVersion: "1236"
+    uid: e27be5e3-4dd1-41dd-b29c-caf53af74f47
+  spec:
+    coordinator:
+      image: kubedb/pg-coordinator:v0.8.0
+    db:
+      image: postgres:11.14-bullseye
+    distribution: Official
+    exporter:
+      image: prometheuscommunity/postgres-exporter:v0.9.0
+    initContainer:
+      image: kubedb/postgres-init:0.4.0
+    podSecurityPolicies:
+      databasePolicyName: postgres-db
+    securityContext:
+      runAsAnyNonRoot: true
+      runAsUser: 999
+    stash:
+      addon:
+        backupTask:
+          name: postgres-backup-11.9
+        restoreTask:
+          name: postgres-restore-11.9
+    version: "11.14"
+- apiVersion: catalog.kubedb.com/v1alpha1
+  kind: PostgresVersion
+  metadata:
+    annotations:
+      meta.helm.sh/release-name: kubedb
+      meta.helm.sh/release-namespace: kubedb
+    creationTimestamp: "2022-02-02T05:21:01Z"
+    generation: 1
+    labels:
+      app.kubernetes.io/instance: kubedb
+      app.kubernetes.io/managed-by: Helm
+      app.kubernetes.io/name: kubedb-catalog
+      app.kubernetes.io/version: v2021.12.21
+      helm.sh/chart: kubedb-catalog-v2021.12.21
+    name: 11.14-bullseye-postgis
+    resourceVersion: "1214"
+    uid: a4c96f4c-a45e-44b6-b69c-23734f595d11
+  spec:
+    coordinator:
+      image: kubedb/pg-coordinator:v0.8.0
+    db:
+      image: postgis/postgis:11-3.1
+    distribution: PostGIS
+    exporter:
+      image: prometheuscommunity/postgres-exporter:v0.9.0
+    initContainer:
+      image: kubedb/postgres-init:0.4.0
+    podSecurityPolicies:
+      databasePolicyName: postgres-db
+    securityContext:
+      runAsAnyNonRoot: true
+      runAsUser: 999
+    stash:
+      addon:
+        backupTask:
+          name: postgres-backup-11.9
+        restoreTask:
+          name: postgres-restore-11.9
+    version: "11.14"
+- apiVersion: catalog.kubedb.com/v1alpha1
+  kind: PostgresVersion
+  metadata:
+    annotations:
+      meta.helm.sh/release-name: kubedb
+      meta.helm.sh/release-namespace: kubedb
+    creationTimestamp: "2022-02-02T05:21:01Z"
+    generation: 1
+    labels:
+      app.kubernetes.io/instance: kubedb
+      app.kubernetes.io/managed-by: Helm
+      app.kubernetes.io/name: kubedb-catalog
+      app.kubernetes.io/version: v2021.12.21
+      helm.sh/chart: kubedb-catalog-v2021.12.21
+    name: "12.6"
+    resourceVersion: "1220"
+    uid: 0ca0a38b-6095-4f57-be2f-45de3889e538
+  spec:
+    coordinator:
+      image: kubedb/pg-coordinator:v0.8.0
+    db:
+      image: postgres:12.6-alpine
+    distribution: Official
+    exporter:
+      image: prometheuscommunity/postgres-exporter:v0.9.0
+    initContainer:
+      image: kubedb/postgres-init:0.4.0
+    podSecurityPolicies:
+      databasePolicyName: postgres-db
+    securityContext:
+      runAsAnyNonRoot: false
+      runAsUser: 70
+    stash:
+      addon:
+        backupTask:
+          name: postgres-backup-12.4
+        restoreTask:
+          name: postgres-restore-12.4
+    version: "12.6"
+- apiVersion: catalog.kubedb.com/v1alpha1
+  kind: PostgresVersion
+  metadata:
+    annotations:
+      meta.helm.sh/release-name: kubedb
+      meta.helm.sh/release-namespace: kubedb
+    creationTimestamp: "2022-02-02T05:21:01Z"
+    generation: 1
+    labels:
+      app.kubernetes.io/instance: kubedb
+      app.kubernetes.io/managed-by: Helm
+      app.kubernetes.io/name: kubedb-catalog
+      app.kubernetes.io/version: v2021.12.21
+      helm.sh/chart: kubedb-catalog-v2021.12.21
+    name: 12.6-debian
+    resourceVersion: "1218"
+    uid: 21a3385d-cc55-44fc-a4d5-c2360ab3fb57
+  spec:
+    coordinator:
+      image: kubedb/pg-coordinator:v0.8.0
+    db:
+      image: postgres:12.6
+    distribution: Official
+    exporter:
+      image: prometheuscommunity/postgres-exporter:v0.9.0
+    initContainer:
+      image: kubedb/postgres-init:0.4.0
+    podSecurityPolicies:
+      databasePolicyName: postgres-db
+    securityContext:
+      runAsAnyNonRoot: true
+      runAsUser: 999
+    stash:
+      addon:
+        backupTask:
+          name: postgres-backup-12.4
+        restoreTask:
+          name: postgres-restore-12.4
+    version: "12.6"
+- apiVersion: catalog.kubedb.com/v1alpha1
+  kind: PostgresVersion
+  metadata:
+    annotations:
+      meta.helm.sh/release-name: kubedb
+      meta.helm.sh/release-namespace: kubedb
+    creationTimestamp: "2022-02-02T05:21:01Z"
+    generation: 1
+    labels:
+      app.kubernetes.io/instance: kubedb
+      app.kubernetes.io/managed-by: Helm
+      app.kubernetes.io/name: kubedb-catalog
+      app.kubernetes.io/version: v2021.12.21
+      helm.sh/chart: kubedb-catalog-v2021.12.21
+    name: "12.9"
+    resourceVersion: "1231"
+    uid: 31e3cac4-cdaf-4be1-aa99-b3deaac29b0f
+  spec:
+    coordinator:
+      image: kubedb/pg-coordinator:v0.8.0
+    db:
+      image: postgres:12.9-alpine
+    distribution: Official
+    exporter:
+      image: prometheuscommunity/postgres-exporter:v0.9.0
+    initContainer:
+      image: kubedb/postgres-init:0.4.0
+    podSecurityPolicies:
+      databasePolicyName: postgres-db
+    securityContext:
+      runAsAnyNonRoot: false
+      runAsUser: 70
+    stash:
+      addon:
+        backupTask:
+          name: postgres-backup-12.4
+        restoreTask:
+          name: postgres-restore-12.4
+    version: "12.9"
+- apiVersion: catalog.kubedb.com/v1alpha1
+  kind: PostgresVersion
+  metadata:
+    annotations:
+      meta.helm.sh/release-name: kubedb
+      meta.helm.sh/release-namespace: kubedb
+    creationTimestamp: "2022-02-02T05:21:01Z"
+    generation: 1
+    labels:
+      app.kubernetes.io/instance: kubedb
+      app.kubernetes.io/managed-by: Helm
+      app.kubernetes.io/name: kubedb-catalog
+      app.kubernetes.io/version: v2021.12.21
+      helm.sh/chart: kubedb-catalog-v2021.12.21
+    name: 12.9-bullseye
+    resourceVersion: "1232"
+    uid: 3b1b6878-4e62-4ba2-a9cb-ae440a19f68e
+  spec:
+    coordinator:
+      image: kubedb/pg-coordinator:v0.8.0
+    db:
+      image: postgres:12.9-bullseye
+    distribution: Official
+    exporter:
+      image: prometheuscommunity/postgres-exporter:v0.9.0
+    initContainer:
+      image: kubedb/postgres-init:0.4.0
+    podSecurityPolicies:
+      databasePolicyName: postgres-db
+    securityContext:
+      runAsAnyNonRoot: true
+      runAsUser: 999
+    stash:
+      addon:
+        backupTask:
+          name: postgres-backup-12.4
+        restoreTask:
+          name: postgres-restore-12.4
+    version: "12.9"
+- apiVersion: catalog.kubedb.com/v1alpha1
+  kind: PostgresVersion
+  metadata:
+    annotations:
+      meta.helm.sh/release-name: kubedb
+      meta.helm.sh/release-namespace: kubedb
+    creationTimestamp: "2022-02-02T05:21:01Z"
+    generation: 1
+    labels:
+      app.kubernetes.io/instance: kubedb
+      app.kubernetes.io/managed-by: Helm
+      app.kubernetes.io/name: kubedb-catalog
+      app.kubernetes.io/version: v2021.12.21
+      helm.sh/chart: kubedb-catalog-v2021.12.21
+    name: 12.9-bullseye-postgis
+    resourceVersion: "1234"
+    uid: 025cc0ba-13b9-4ed6-93f3-bb7d4b31d735
+  spec:
+    coordinator:
+      image: kubedb/pg-coordinator:v0.8.0
+    db:
+      image: postgis/postgis:12-3.1
+    distribution: PostGIS
+    exporter:
+      image: prometheuscommunity/postgres-exporter:v0.9.0
+    initContainer:
+      image: kubedb/postgres-init:0.4.0
+    podSecurityPolicies:
+      databasePolicyName: postgres-db
+    securityContext:
+      runAsAnyNonRoot: true
+      runAsUser: 999
+    stash:
+      addon:
+        backupTask:
+          name: postgres-backup-12.4
+        restoreTask:
+          name: postgres-restore-12.4
+    version: "12.9"
+- apiVersion: catalog.kubedb.com/v1alpha1
+  kind: PostgresVersion
+  metadata:
+    annotations:
+      meta.helm.sh/release-name: kubedb
+      meta.helm.sh/release-namespace: kubedb
+    creationTimestamp: "2022-02-02T05:21:01Z"
+    generation: 1
+    labels:
+      app.kubernetes.io/instance: kubedb
+      app.kubernetes.io/managed-by: Helm
+      app.kubernetes.io/name: kubedb-catalog
+      app.kubernetes.io/version: v2021.12.21
+      helm.sh/chart: kubedb-catalog-v2021.12.21
+    name: "13.2"
+    resourceVersion: "1223"
+    uid: 4b0bf1b5-b40b-4d30-9803-e66d66655def
+  spec:
+    coordinator:
+      image: kubedb/pg-coordinator:v0.8.0
+    db:
+      image: postgres:13.2-alpine
+    distribution: Official
+    exporter:
+      image: prometheuscommunity/postgres-exporter:v0.9.0
+    initContainer:
+      image: kubedb/postgres-init:0.4.0
+    podSecurityPolicies:
+      databasePolicyName: postgres-db
+    securityContext:
+      runAsAnyNonRoot: false
+      runAsUser: 70
+    stash:
+      addon:
+        backupTask:
+          name: postgres-backup-13.1
+        restoreTask:
+          name: postgres-restore-13.1
+    version: "13.2"
+- apiVersion: catalog.kubedb.com/v1alpha1
+  kind: PostgresVersion
+  metadata:
+    annotations:
+      meta.helm.sh/release-name: kubedb
+      meta.helm.sh/release-namespace: kubedb
+    creationTimestamp: "2022-02-02T05:21:01Z"
+    generation: 1
+    labels:
+      app.kubernetes.io/instance: kubedb
+      app.kubernetes.io/managed-by: Helm
+      app.kubernetes.io/name: kubedb-catalog
+      app.kubernetes.io/version: v2021.12.21
+      helm.sh/chart: kubedb-catalog-v2021.12.21
+    name: 13.2-debian
+    resourceVersion: "1219"
+    uid: a11d6465-0235-49e0-ad50-423904b39620
+  spec:
+    coordinator:
+      image: kubedb/pg-coordinator:v0.8.0
+    db:
+      image: postgres:13.2
+    distribution: Official
+    exporter:
+      image: prometheuscommunity/postgres-exporter:v0.9.0
+    initContainer:
+      image: kubedb/postgres-init:0.4.0
+    podSecurityPolicies:
+      databasePolicyName: postgres-db
+    securityContext:
+      runAsAnyNonRoot: true
+      runAsUser: 999
+    stash:
+      addon:
+        backupTask:
+          name: postgres-backup-13.1
+        restoreTask:
+          name: postgres-restore-13.1
+    version: "13.2"
+- apiVersion: catalog.kubedb.com/v1alpha1
+  kind: PostgresVersion
+  metadata:
+    annotations:
+      meta.helm.sh/release-name: kubedb
+      meta.helm.sh/release-namespace: kubedb
+    creationTimestamp: "2022-02-02T05:21:01Z"
+    generation: 1
+    labels:
+      app.kubernetes.io/instance: kubedb
+      app.kubernetes.io/managed-by: Helm
+      app.kubernetes.io/name: kubedb-catalog
+      app.kubernetes.io/version: v2021.12.21
+      helm.sh/chart: kubedb-catalog-v2021.12.21
+    name: "13.5"
+    resourceVersion: "1237"
+    uid: fb7e7d73-3198-41f3-971c-75dabc770758
+  spec:
+    coordinator:
+      image: kubedb/pg-coordinator:v0.8.0
+    db:
+      image: postgres:13.5-alpine
+    distribution: Official
+    exporter:
+      image: prometheuscommunity/postgres-exporter:v0.9.0
+    initContainer:
+      image: kubedb/postgres-init:0.4.0
+    podSecurityPolicies:
+      databasePolicyName: postgres-db
+    securityContext:
+      runAsAnyNonRoot: false
+      runAsUser: 70
+    stash:
+      addon:
+        backupTask:
+          name: postgres-backup-13.1
+        restoreTask:
+          name: postgres-restore-13.1
+    version: "13.5"
+- apiVersion: catalog.kubedb.com/v1alpha1
+  kind: PostgresVersion
+  metadata:
+    annotations:
+      meta.helm.sh/release-name: kubedb
+      meta.helm.sh/release-namespace: kubedb
+    creationTimestamp: "2022-02-02T05:21:01Z"
+    generation: 1
+    labels:
+      app.kubernetes.io/instance: kubedb
+      app.kubernetes.io/managed-by: Helm
+      app.kubernetes.io/name: kubedb-catalog
+      app.kubernetes.io/version: v2021.12.21
+      helm.sh/chart: kubedb-catalog-v2021.12.21
+    name: 13.5-bullseye
+    resourceVersion: "1230"
+    uid: a90c2785-63a6-4f58-b16f-a31ec11a9cda
+  spec:
+    coordinator:
+      image: kubedb/pg-coordinator:v0.8.0
+    db:
+      image: postgres:13.5-bullseye
+    distribution: Official
+    exporter:
+      image: prometheuscommunity/postgres-exporter:v0.9.0
+    initContainer:
+      image: kubedb/postgres-init:0.4.0
+    podSecurityPolicies:
+      databasePolicyName: postgres-db
+    securityContext:
+      runAsAnyNonRoot: true
+      runAsUser: 999
+    stash:
+      addon:
+        backupTask:
+          name: postgres-backup-13.1
+        restoreTask:
+          name: postgres-restore-13.1
+    version: "13.5"
+- apiVersion: catalog.kubedb.com/v1alpha1
+  kind: PostgresVersion
+  metadata:
+    annotations:
+      meta.helm.sh/release-name: kubedb
+      meta.helm.sh/release-namespace: kubedb
+    creationTimestamp: "2022-02-02T05:21:01Z"
+    generation: 1
+    labels:
+      app.kubernetes.io/instance: kubedb
+      app.kubernetes.io/managed-by: Helm
+      app.kubernetes.io/name: kubedb-catalog
+      app.kubernetes.io/version: v2021.12.21
+      helm.sh/chart: kubedb-catalog-v2021.12.21
+    name: 13.5-bullseye-postgis
+    resourceVersion: "1238"
+    uid: 6db4945b-d722-4122-89ea-5c88483fd643
+  spec:
+    coordinator:
+      image: kubedb/pg-coordinator:v0.8.0
+    db:
+      image: postgis/postgis:13-3.1
+    distribution: PostGIS
+    exporter:
+      image: prometheuscommunity/postgres-exporter:v0.9.0
+    initContainer:
+      image: kubedb/postgres-init:0.4.0
+    podSecurityPolicies:
+      databasePolicyName: postgres-db
+    securityContext:
+      runAsAnyNonRoot: true
+      runAsUser: 999
+    stash:
+      addon:
+        backupTask:
+          name: postgres-backup-13.1
+        restoreTask:
+          name: postgres-restore-13.1
+    version: "13.5"
+- apiVersion: catalog.kubedb.com/v1alpha1
+  kind: PostgresVersion
+  metadata:
+    annotations:
+      meta.helm.sh/release-name: kubedb
+      meta.helm.sh/release-namespace: kubedb
+    creationTimestamp: "2022-02-02T05:21:01Z"
+    generation: 1
+    labels:
+      app.kubernetes.io/instance: kubedb
+      app.kubernetes.io/managed-by: Helm
+      app.kubernetes.io/name: kubedb-catalog
+      app.kubernetes.io/version: v2021.12.21
+      helm.sh/chart: kubedb-catalog-v2021.12.21
+    name: "14.1"
+    resourceVersion: "1216"
+    uid: 633c5a55-6192-4cc1-b173-ff0234509bd1
+  spec:
+    coordinator:
+      image: kubedb/pg-coordinator:v0.8.0
+    db:
+      image: postgres:14.1-alpine
+    distribution: Official
+    exporter:
+      image: prometheuscommunity/postgres-exporter:v0.9.0
+    initContainer:
+      image: kubedb/postgres-init:0.4.0
+    podSecurityPolicies:
+      databasePolicyName: postgres-db
+    securityContext:
+      runAsAnyNonRoot: false
+      runAsUser: 70
+    stash:
+      addon:
+        backupTask:
+          name: postgres-backup-14.0
+        restoreTask:
+          name: postgres-restore-14.0
+    version: "14.1"
+- apiVersion: catalog.kubedb.com/v1alpha1
+  kind: PostgresVersion
+  metadata:
+    annotations:
+      meta.helm.sh/release-name: kubedb
+      meta.helm.sh/release-namespace: kubedb
+    creationTimestamp: "2022-02-02T05:21:01Z"
+    generation: 1
+    labels:
+      app.kubernetes.io/instance: kubedb
+      app.kubernetes.io/managed-by: Helm
+      app.kubernetes.io/name: kubedb-catalog
+      app.kubernetes.io/version: v2021.12.21
+      helm.sh/chart: kubedb-catalog-v2021.12.21
+    name: 14.1-bullseye
+    resourceVersion: "1213"
+    uid: ac00e6a8-4d9a-4e09-8a3a-14bba0da5c09
+  spec:
+    coordinator:
+      image: kubedb/pg-coordinator:v0.8.0
+    db:
+      image: postgres:14.1-bullseye
+    distribution: Official
+    exporter:
+      image: prometheuscommunity/postgres-exporter:v0.9.0
+    initContainer:
+      image: kubedb/postgres-init:0.4.0
+    podSecurityPolicies:
+      databasePolicyName: postgres-db
+    securityContext:
+      runAsAnyNonRoot: true
+      runAsUser: 999
+    stash:
+      addon:
+        backupTask:
+          name: postgres-backup-14.0
+        restoreTask:
+          name: postgres-restore-14.0
+    version: "14.1"
+- apiVersion: catalog.kubedb.com/v1alpha1
+  kind: PostgresVersion
+  metadata:
+    annotations:
+      meta.helm.sh/release-name: kubedb
+      meta.helm.sh/release-namespace: kubedb
+    creationTimestamp: "2022-02-02T05:21:01Z"
+    generation: 1
+    labels:
+      app.kubernetes.io/instance: kubedb
+      app.kubernetes.io/managed-by: Helm
+      app.kubernetes.io/name: kubedb-catalog
+      app.kubernetes.io/version: v2021.12.21
+      helm.sh/chart: kubedb-catalog-v2021.12.21
+    name: 14.1-bullseye-postgis
+    resourceVersion: "1217"
+    uid: e1296a16-bb45-4582-a280-f92ee5162a71
+  spec:
+    coordinator:
+      image: kubedb/pg-coordinator:v0.8.0
+    db:
+      image: postgis/postgis:14-3.1
+    distribution: PostGIS
+    exporter:
+      image: prometheuscommunity/postgres-exporter:v0.9.0
+    initContainer:
+      image: kubedb/postgres-init:0.4.0
+    podSecurityPolicies:
+      databasePolicyName: postgres-db
+    securityContext:
+      runAsAnyNonRoot: true
+      runAsUser: 999
+    stash:
+      addon:
+        backupTask:
+          name: postgres-backup-14.0
+        restoreTask:
+          name: postgres-restore-14.0
+    version: "14.1"
+- apiVersion: catalog.kubedb.com/v1alpha1
+  kind: PostgresVersion
+  metadata:
+    annotations:
+      meta.helm.sh/release-name: kubedb
+      meta.helm.sh/release-namespace: kubedb
+    creationTimestamp: "2022-02-02T05:21:01Z"
+    generation: 1
+    labels:
+      app.kubernetes.io/instance: kubedb
+      app.kubernetes.io/managed-by: Helm
+      app.kubernetes.io/name: kubedb-catalog
+      app.kubernetes.io/version: v2021.12.21
+      helm.sh/chart: kubedb-catalog-v2021.12.21
+    name: 9.6.21
+    resourceVersion: "1233"
+    uid: aef662c6-c991-4251-b5e6-7236bf9f61cd
+  spec:
+    coordinator:
+      image: kubedb/pg-coordinator:v0.8.0
+    db:
+      image: postgres:9.6.21-alpine
+    distribution: Official
+    exporter:
+      image: prometheuscommunity/postgres-exporter:v0.9.0
+    initContainer:
+      image: kubedb/postgres-init:0.4.0
+    podSecurityPolicies:
+      databasePolicyName: postgres-db
+    securityContext:
+      runAsAnyNonRoot: false
+      runAsUser: 70
+    stash:
+      addon:
+        backupTask:
+          name: postgres-backup-9.6.19
+        restoreTask:
+          name: postgres-restore-9.6.19
+    version: 9.6.21
+- apiVersion: catalog.kubedb.com/v1alpha1
+  kind: PostgresVersion
+  metadata:
+    annotations:
+      meta.helm.sh/release-name: kubedb
+      meta.helm.sh/release-namespace: kubedb
+    creationTimestamp: "2022-02-02T05:21:01Z"
+    generation: 1
+    labels:
+      app.kubernetes.io/instance: kubedb
+      app.kubernetes.io/managed-by: Helm
+      app.kubernetes.io/name: kubedb-catalog
+      app.kubernetes.io/version: v2021.12.21
+      helm.sh/chart: kubedb-catalog-v2021.12.21
+    name: 9.6.21-debian
+    resourceVersion: "1225"
+    uid: 97c50bfc-1291-46c3-9dfa-01c860263a36
+  spec:
+    coordinator:
+      image: kubedb/pg-coordinator:v0.8.0
+    db:
+      image: postgres:9.6.21
+    distribution: Official
+    exporter:
+      image: prometheuscommunity/postgres-exporter:v0.9.0
+    initContainer:
+      image: kubedb/postgres-init:0.4.0
+    podSecurityPolicies:
+      databasePolicyName: postgres-db
+    securityContext:
+      runAsAnyNonRoot: true
+      runAsUser: 999
+    stash:
+      addon:
+        backupTask:
+          name: postgres-backup-9.6.19
+        restoreTask:
+          name: postgres-restore-9.6.19
+    version: 9.6.21
+- apiVersion: catalog.kubedb.com/v1alpha1
+  kind: PostgresVersion
+  metadata:
+    annotations:
+      meta.helm.sh/release-name: kubedb
+      meta.helm.sh/release-namespace: kubedb
+    creationTimestamp: "2022-02-02T05:21:01Z"
+    generation: 1
+    labels:
+      app.kubernetes.io/instance: kubedb
+      app.kubernetes.io/managed-by: Helm
+      app.kubernetes.io/name: kubedb-catalog
+      app.kubernetes.io/version: v2021.12.21
+      helm.sh/chart: kubedb-catalog-v2021.12.21
+    name: 9.6.24
+    resourceVersion: "1211"
+    uid: 53ad3ea2-032b-4a5e-b203-0b12007492e7
+  spec:
+    coordinator:
+      image: kubedb/pg-coordinator:v0.8.0
+    db:
+      image: postgres:9.6.24-alpine
+    distribution: Official
+    exporter:
+      image: prometheuscommunity/postgres-exporter:v0.9.0
+    initContainer:
+      image: kubedb/postgres-init:0.4.0
+    podSecurityPolicies:
+      databasePolicyName: postgres-db
+    securityContext:
+      runAsAnyNonRoot: false
+      runAsUser: 70
+    stash:
+      addon:
+        backupTask:
+          name: postgres-backup-9.6.19
+        restoreTask:
+          name: postgres-restore-9.6.19
+    version: 9.6.24
+- apiVersion: catalog.kubedb.com/v1alpha1
+  kind: PostgresVersion
+  metadata:
+    annotations:
+      meta.helm.sh/release-name: kubedb
+      meta.helm.sh/release-namespace: kubedb
+    creationTimestamp: "2022-02-02T05:21:01Z"
+    generation: 1
+    labels:
+      app.kubernetes.io/instance: kubedb
+      app.kubernetes.io/managed-by: Helm
+      app.kubernetes.io/name: kubedb-catalog
+      app.kubernetes.io/version: v2021.12.21
+      helm.sh/chart: kubedb-catalog-v2021.12.21
+    name: 9.6.24-bullseye
+    resourceVersion: "1239"
+    uid: c85d050c-67a0-467e-906f-6738d8dcf360
+  spec:
+    coordinator:
+      image: kubedb/pg-coordinator:v0.8.0
+    db:
+      image: postgres:9.6.24-bullseye
+    distribution: Official
+    exporter:
+      image: prometheuscommunity/postgres-exporter:v0.9.0
+    initContainer:
+      image: kubedb/postgres-init:0.4.0
+    podSecurityPolicies:
+      databasePolicyName: postgres-db
+    securityContext:
+      runAsAnyNonRoot: true
+      runAsUser: 999
+    stash:
+      addon:
+        backupTask:
+          name: postgres-backup-9.6.19
+        restoreTask:
+          name: postgres-restore-9.6.19
+    version: 9.6.24
+- apiVersion: catalog.kubedb.com/v1alpha1
+  kind: PostgresVersion
+  metadata:
+    annotations:
+      meta.helm.sh/release-name: kubedb
+      meta.helm.sh/release-namespace: kubedb
+    creationTimestamp: "2022-02-02T05:21:01Z"
+    generation: 1
+    labels:
+      app.kubernetes.io/instance: kubedb
+      app.kubernetes.io/managed-by: Helm
+      app.kubernetes.io/name: kubedb-catalog
+      app.kubernetes.io/version: v2021.12.21
+      helm.sh/chart: kubedb-catalog-v2021.12.21
+    name: timescaledb-2.1.0-pg11
+    resourceVersion: "1229"
+    uid: 24530e66-31c4-4ff0-b6a7-181dab72edad
+  spec:
+    coordinator:
+      image: kubedb/pg-coordinator:v0.8.0
+    db:
+      image: timescale/timescaledb:2.1.0-pg11-oss
+    distribution: TimescaleDB
+    exporter:
+      image: prometheuscommunity/postgres-exporter:v0.9.0
+    initContainer:
+      image: kubedb/postgres-init:0.4.0
+    podSecurityPolicies:
+      databasePolicyName: postgres-db
+    securityContext:
+      runAsAnyNonRoot: false
+      runAsUser: 70
+    stash:
+      addon:
+        backupTask:
+          name: postgres-backup-11.9
+        restoreTask:
+          name: postgres-restore-11.9
+    version: "11.11"
+- apiVersion: catalog.kubedb.com/v1alpha1
+  kind: PostgresVersion
+  metadata:
+    annotations:
+      meta.helm.sh/release-name: kubedb
+      meta.helm.sh/release-namespace: kubedb
+    creationTimestamp: "2022-02-02T05:21:01Z"
+    generation: 1
+    labels:
+      app.kubernetes.io/instance: kubedb
+      app.kubernetes.io/managed-by: Helm
+      app.kubernetes.io/name: kubedb-catalog
+      app.kubernetes.io/version: v2021.12.21
+      helm.sh/chart: kubedb-catalog-v2021.12.21
+    name: timescaledb-2.1.0-pg12
+    resourceVersion: "1222"
+    uid: 211f26e4-b9dc-49c0-b730-11f8a07b56a6
+  spec:
+    coordinator:
+      image: kubedb/pg-coordinator:v0.8.0
+    db:
+      image: timescale/timescaledb:2.1.0-pg12-oss
+    distribution: TimescaleDB
+    exporter:
+      image: prometheuscommunity/postgres-exporter:v0.9.0
+    initContainer:
+      image: kubedb/postgres-init:0.4.0
+    podSecurityPolicies:
+      databasePolicyName: postgres-db
+    securityContext:
+      runAsAnyNonRoot: false
+      runAsUser: 70
+    stash:
+      addon:
+        backupTask:
+          name: postgres-backup-12.4
+        restoreTask:
+          name: postgres-restore-12.4
+    version: "12.6"
+- apiVersion: catalog.kubedb.com/v1alpha1
+  kind: PostgresVersion
+  metadata:
+    annotations:
+      meta.helm.sh/release-name: kubedb
+      meta.helm.sh/release-namespace: kubedb
+    creationTimestamp: "2022-02-02T05:21:01Z"
+    generation: 1
+    labels:
+      app.kubernetes.io/instance: kubedb
+      app.kubernetes.io/managed-by: Helm
+      app.kubernetes.io/name: kubedb-catalog
+      app.kubernetes.io/version: v2021.12.21
+      helm.sh/chart: kubedb-catalog-v2021.12.21
+    name: timescaledb-2.1.0-pg13
+    resourceVersion: "1227"
+    uid: 9725045f-8b8c-42e1-a16a-5a77f038e3dc
+  spec:
+    coordinator:
+      image: kubedb/pg-coordinator:v0.8.0
+    db:
+      image: timescale/timescaledb:2.1.0-pg13-oss
+    distribution: TimescaleDB
+    exporter:
+      image: prometheuscommunity/postgres-exporter:v0.9.0
+    initContainer:
+      image: kubedb/postgres-init:0.4.0
+    podSecurityPolicies:
+      databasePolicyName: postgres-db
+    securityContext:
+      runAsAnyNonRoot: false
+      runAsUser: 70
+    stash:
+      addon:
+        backupTask:
+          name: postgres-backup-13.1
+        restoreTask:
+          name: postgres-restore-13.1
+    version: "13.2"
+- apiVersion: catalog.kubedb.com/v1alpha1
+  kind: PostgresVersion
+  metadata:
+    annotations:
+      meta.helm.sh/release-name: kubedb
+      meta.helm.sh/release-namespace: kubedb
+    creationTimestamp: "2022-02-02T05:21:01Z"
+    generation: 1
+    labels:
+      app.kubernetes.io/instance: kubedb
+      app.kubernetes.io/managed-by: Helm
+      app.kubernetes.io/name: kubedb-catalog
+      app.kubernetes.io/version: v2021.12.21
+      helm.sh/chart: kubedb-catalog-v2021.12.21
+    name: timescaledb-2.5.0-pg14.1
+    resourceVersion: "1221"
+    uid: c2c40ca9-2eba-4f6f-ab10-6c7210c6a637
+  spec:
+    coordinator:
+      image: kubedb/pg-coordinator:v0.8.0
+    db:
+      image: timescale/timescaledb:2.5.0-pg14-oss
+    distribution: TimescaleDB
+    exporter:
+      image: prometheuscommunity/postgres-exporter:v0.9.0
+    initContainer:
+      image: kubedb/postgres-init:0.4.0
+    podSecurityPolicies:
+      databasePolicyName: postgres-db
+    securityContext:
+      runAsAnyNonRoot: false
+      runAsUser: 70
+    stash:
+      addon:
+        backupTask:
+          name: postgres-backup-14.0
+        restoreTask:
+          name: postgres-restore-14.0
+    version: "14.1"
+kind: List
+metadata:
+  resourceVersion: ""
+  selfLink: ""

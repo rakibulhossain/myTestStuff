@@ -1,0 +1,41 @@
+apiVersion: kubedb.com/v1alpha2
+kind: Postgres
+metadata:
+  name: demo-pg
+  namespace: demo
+spec:
+  # version: "13.1"
+  # version: "12.5"
+  version: "13.2"
+  authSecret:
+    name: "pg-custom-auth"
+  # version: "10.15"
+  # version: "9.6.20"
+  replicas: 3
+  standbyMode: Hot
+  # clientAuthMode: scram
+  # sslMode: verify-full
+  storageType: Durable
+  # tls:
+  #   issuerRef:
+  #     apiGroup: cert-manager.io
+  #     name: postgres-ca-issuer
+  #     kind: Issuer
+  storage:
+    storageClassName: "standard"
+    accessModes:
+    - ReadWriteOnce
+    resources:
+      requests:
+        storage: 1Gi
+  allowedSchemas:
+    namespaces:
+      from: Selector
+      selector:
+        matchLabels:
+         kubernetes.io/metadata.name: demo
+         kubernetes.io/metadata.type: schema
+    selector:
+      matchLabels:
+        schema.kubedb.com/instance_name: schema
+  terminationPolicy: WipeOut

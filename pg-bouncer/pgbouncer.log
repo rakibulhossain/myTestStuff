@@ -1,0 +1,966 @@
+2022-02-23 12:46:52.302 +06 [300535] LOG kernel file descriptor limit: 1024 (hard: 1048576); max_client_conn: 100, max expected fd use: 152
+2022-02-23 12:46:52.302 +06 [300535] WARNING cannot listen on 127.0.0.1:6432: bind(): Address already in use
+2022-02-23 12:46:52.302 +06 [300535] LOG listening on unix:/tmp/.s.PGSQL.6432
+2022-02-23 12:46:52.302 +06 [300535] LOG process up: PgBouncer 1.16.1, libevent 2.1.11-stable (epoll), adns: evdns2, tls: OpenSSL 1.1.1f  31 Mar 2020
+2022-02-23 12:47:52.302 +06 [300535] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 12:48:52.302 +06 [300535] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 12:49:52.303 +06 [300535] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 12:50:52.302 +06 [300535] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 12:51:52.302 +06 [300535] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 12:52:52.302 +06 [300535] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 12:53:20.964 +06 [306482] FATAL unix socket is in use, cannot continue
+2022-02-23 12:53:52.299 +06 [300535] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 12:54:52.298 +06 [300535] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 12:55:52.299 +06 [300535] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 12:56:52.298 +06 [300535] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 12:57:52.299 +06 [300535] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 12:58:52.299 +06 [300535] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 12:59:52.299 +06 [300535] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 13:00:52.299 +06 [300535] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 13:01:52.299 +06 [300535] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 13:02:52.302 +06 [300535] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 13:03:30.403 +06 [317054] LOG stale pidfile, removing
+2022-02-23 13:03:30.403 +06 [317056] LOG kernel file descriptor limit: 1024 (hard: 1048576); max_client_conn: 100, max expected fd use: 152
+2022-02-23 13:03:30.404 +06 [317056] WARNING cannot listen on 127.0.0.1:6432: bind(): Address already in use
+2022-02-23 13:03:30.404 +06 [317056] LOG listening on unix:/tmp/.s.PGSQL.6432
+2022-02-23 13:03:30.404 +06 [317056] LOG process up: PgBouncer 1.16.1, libevent 2.1.11-stable (epoll), adns: evdns2, tls: OpenSSL 1.1.1f  31 Mar 2020
+2022-02-23 13:03:37.891 +06 [317212] FATAL unix socket is in use, cannot continue
+2022-02-23 13:04:30.403 +06 [317056] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 13:05:30.402 +06 [317056] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 13:06:30.402 +06 [317056] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 13:07:30.403 +06 [317056] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 13:08:30.407 +06 [317056] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 13:09:30.403 +06 [317056] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 13:10:30.402 +06 [317056] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 13:11:30.402 +06 [317056] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 13:12:30.403 +06 [317056] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 13:13:30.402 +06 [317056] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 13:14:30.404 +06 [317056] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 13:15:30.402 +06 [317056] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 13:16:30.403 +06 [317056] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 13:17:30.402 +06 [317056] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 13:18:30.406 +06 [317056] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 13:19:30.406 +06 [317056] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 13:20:30.407 +06 [317056] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 13:21:30.406 +06 [317056] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 13:22:30.405 +06 [317056] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 13:23:30.403 +06 [317056] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 13:24:30.403 +06 [317056] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 13:25:30.405 +06 [317056] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 13:26:30.405 +06 [317056] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 13:27:30.403 +06 [317056] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 13:28:30.403 +06 [317056] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 13:29:30.403 +06 [317056] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 13:30:30.402 +06 [317056] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 13:31:30.403 +06 [317056] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 13:32:30.404 +06 [317056] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 13:33:30.402 +06 [317056] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 13:34:30.402 +06 [317056] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 13:35:30.403 +06 [317056] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 13:36:30.403 +06 [317056] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 13:37:30.407 +06 [317056] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 13:38:30.406 +06 [317056] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 13:39:30.403 +06 [317056] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 13:40:30.403 +06 [317056] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 13:41:30.404 +06 [317056] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 13:42:30.403 +06 [317056] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 13:43:30.402 +06 [317056] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 13:44:30.402 +06 [317056] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 13:45:30.402 +06 [317056] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 13:46:30.403 +06 [317056] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 13:47:30.407 +06 [317056] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 13:48:30.407 +06 [317056] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 13:49:30.407 +06 [317056] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 13:50:30.403 +06 [317056] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 13:51:30.402 +06 [317056] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 13:52:30.403 +06 [317056] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 13:53:30.402 +06 [317056] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 13:54:30.403 +06 [317056] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 13:55:30.403 +06 [317056] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 13:56:30.403 +06 [317056] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 13:57:30.404 +06 [317056] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 13:58:30.403 +06 [317056] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 13:59:30.402 +06 [317056] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 14:00:30.405 +06 [317056] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 14:01:30.404 +06 [317056] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 14:02:30.402 +06 [317056] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 14:03:30.405 +06 [317056] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 14:04:30.405 +06 [317056] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 14:05:30.405 +06 [317056] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 14:06:30.405 +06 [317056] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 14:07:30.404 +06 [317056] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 14:08:30.404 +06 [317056] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 14:09:30.402 +06 [317056] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 14:10:30.404 +06 [317056] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 14:11:30.403 +06 [317056] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 14:12:30.404 +06 [317056] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 14:13:30.407 +06 [317056] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 14:14:30.407 +06 [317056] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 14:15:30.402 +06 [317056] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 14:16:30.402 +06 [317056] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 14:17:30.403 +06 [317056] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 14:18:30.402 +06 [317056] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 14:19:30.404 +06 [317056] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 14:20:30.402 +06 [317056] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 14:21:30.402 +06 [317056] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 14:22:30.405 +06 [317056] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 14:23:30.402 +06 [317056] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 14:24:30.405 +06 [317056] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 14:25:30.404 +06 [317056] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 14:26:30.405 +06 [317056] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 14:27:30.405 +06 [317056] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 14:28:30.405 +06 [317056] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 14:29:30.405 +06 [317056] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 14:30:30.403 +06 [317056] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 14:31:30.404 +06 [317056] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 14:32:30.403 +06 [317056] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 14:33:30.403 +06 [317056] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 14:34:30.407 +06 [317056] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 14:35:30.407 +06 [317056] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 14:36:30.406 +06 [317056] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 14:37:30.406 +06 [317056] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 14:38:30.406 +06 [317056] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 14:39:30.406 +06 [317056] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 14:40:24.798 +06 [401418] LOG stale pidfile, removing
+2022-02-23 14:40:24.798 +06 [401423] LOG kernel file descriptor limit: 1024 (hard: 1048576); max_client_conn: 100, max expected fd use: 152
+2022-02-23 14:40:24.798 +06 [401423] WARNING cannot listen on 127.0.0.1:6432: bind(): Address already in use
+2022-02-23 14:40:24.798 +06 [401423] LOG listening on unix:/tmp/.s.PGSQL.6432
+2022-02-23 14:40:24.798 +06 [401423] LOG process up: PgBouncer 1.16.1, libevent 2.1.11-stable (epoll), adns: evdns2, tls: OpenSSL 1.1.1f  31 Mar 2020
+2022-02-23 14:41:24.799 +06 [401423] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 14:42:24.798 +06 [401423] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 14:43:24.799 +06 [401423] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 14:44:24.800 +06 [401423] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 14:45:24.799 +06 [401423] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 14:49:30.044 +06 [410041] LOG stale pidfile, removing
+2022-02-23 14:49:30.044 +06 [410043] LOG kernel file descriptor limit: 1024 (hard: 1048576); max_client_conn: 100, max expected fd use: 192
+2022-02-23 14:49:30.044 +06 [410043] WARNING cannot listen on 127.0.0.1:6432: bind(): Address already in use
+2022-02-23 14:49:30.044 +06 [410043] LOG listening on unix:/tmp/.s.PGSQL.6432
+2022-02-23 14:49:30.044 +06 [410043] LOG process up: PgBouncer 1.16.1, libevent 2.1.11-stable (epoll), adns: evdns2, tls: OpenSSL 1.1.1f  31 Mar 2020
+2022-02-23 14:50:30.042 +06 [410043] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 14:51:30.043 +06 [410043] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 14:52:30.043 +06 [410043] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 14:53:30.042 +06 [410043] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 14:54:30.043 +06 [410043] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 14:55:30.043 +06 [410043] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 14:56:30.043 +06 [410043] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 14:57:30.044 +06 [410043] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 14:58:30.043 +06 [410043] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 14:59:30.042 +06 [410043] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 15:00:30.043 +06 [410043] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 15:01:30.043 +06 [410043] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 15:02:30.045 +06 [410043] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 15:03:30.044 +06 [410043] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 15:04:30.042 +06 [410043] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 15:05:34.943 +06 [425695] LOG stale pidfile, removing
+2022-02-23 15:05:34.944 +06 [425697] LOG kernel file descriptor limit: 1024 (hard: 1048576); max_client_conn: 100, max expected fd use: 192
+2022-02-23 15:05:34.944 +06 [425697] WARNING cannot listen on 127.0.0.1:6432: bind(): Address already in use
+2022-02-23 15:05:34.944 +06 [425697] LOG listening on unix:/tmp/.s.PGSQL.6432
+2022-02-23 15:05:34.944 +06 [425697] LOG process up: PgBouncer 1.16.1, libevent 2.1.11-stable (epoll), adns: evdns2, tls: OpenSSL 1.1.1f  31 Mar 2020
+2022-02-23 15:06:34.943 +06 [425697] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 15:08:18.150 +06 [428306] DEBUG parse_ini_file: 'logfile' = 'pgbouncer.log' ok:1
+2022-02-23 15:08:18.150 +06 [428306] DEBUG parse_ini_file: 'pidfile' = 'pgbouncer.pid'
+2022-02-23 15:08:18.150 +06 [428306] DEBUG parse_ini_file: 'pidfile' = 'pgbouncer.pid' ok:1
+2022-02-23 15:08:18.150 +06 [428306] DEBUG parse_ini_file: 'admin_users' = 'postgres, rakib'
+2022-02-23 15:08:18.150 +06 [428306] DEBUG parse_ini_file: 'admin_users' = 'postgres, rakib' ok:1
+2022-02-23 15:08:18.150 +06 [428306] DEBUG loading auth_file: "userlist.txt"
+2022-02-23 15:08:18.154 +06 [428306] DEBUG pktbuf_dynamic(128): 0x55b0885d5d50
+2022-02-23 15:08:18.154 +06 [428306] DEBUG make_room(0x55b0885d5d50, 9): realloc newlen=256
+2022-02-23 15:08:18.154 +06 [428306] DEBUG pktbuf_dynamic(128): 0x55b0885d5a40
+2022-02-23 15:08:18.154 +06 [428306] LOG stale pidfile, removing
+2022-02-23 15:08:18.154 +06 [428306] LOG kernel file descriptor limit: 1024 (hard: 1048576); max_client_conn: 100, max expected fd use: 192
+2022-02-23 15:08:18.154 +06 [428306] DEBUG adns_create_context: evdns2
+2022-02-23 15:08:18.155 +06 [428306] DEBUG add_listen: 127.0.0.1:6432
+2022-02-23 15:08:18.155 +06 [428306] LOG listening on 127.0.0.1:6432
+2022-02-23 15:08:18.155 +06 [428306] DEBUG add_listen: unix:/tmp/.s.PGSQL.6432
+2022-02-23 15:08:18.155 +06 [428306] LOG listening on unix:/tmp/.s.PGSQL.6432
+2022-02-23 15:08:18.155 +06 [428306] LOG process up: PgBouncer 1.16.1, libevent 2.1.11-stable (epoll), adns: evdns2, tls: OpenSSL 1.1.1f  31 Mar 2020
+2022-02-23 15:09:18.155 +06 [428306] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 15:10:18.155 +06 [428306] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 15:10:33.161 +06 [428306] DEBUG C-0x55b0885ee080: (nodb)/(nouser)@127.0.0.1:35076 P: got connection: 127.0.0.1:35076 -> 127.0.0.1:6432
+2022-02-23 15:10:33.161 +06 [428306] DEBUG C-0x55b0885ee080: (nodb)/(nouser)@127.0.0.1:35076 got var: user=rakib
+2022-02-23 15:10:33.161 +06 [428306] DEBUG C-0x55b0885ee080: (nodb)/(nouser)@127.0.0.1:35076 got var: database=test
+2022-02-23 15:10:33.161 +06 [428306] DEBUG C-0x55b0885ee080: (nodb)/(nouser)@127.0.0.1:35076 using application_name: psql
+2022-02-23 15:10:33.161 +06 [428306] DEBUG C-0x55b0885ee080: (nodb)/(nouser)@127.0.0.1:35076 got var: client_encoding=UTF8
+2022-02-23 15:10:33.161 +06 [428306] LOG C-0x55b0885ee080: test/rakib@127.0.0.1:35076 login attempt: db=test user=rakib tls=no
+2022-02-23 15:10:46.856 +06 [428306] DEBUG C-0x55b0885ee080: (nodb)/(nouser)@127.0.0.1:35078 P: got connection: 127.0.0.1:35078 -> 127.0.0.1:6432
+2022-02-23 15:10:46.856 +06 [428306] DEBUG C-0x55b0885ee080: (nodb)/(nouser)@127.0.0.1:35078 got var: user=rakib
+2022-02-23 15:10:46.857 +06 [428306] DEBUG C-0x55b0885ee080: (nodb)/(nouser)@127.0.0.1:35078 got var: database=test
+2022-02-23 15:10:46.857 +06 [428306] DEBUG C-0x55b0885ee080: (nodb)/(nouser)@127.0.0.1:35078 using application_name: psql
+2022-02-23 15:10:46.857 +06 [428306] DEBUG C-0x55b0885ee080: (nodb)/(nouser)@127.0.0.1:35078 got var: client_encoding=UTF8
+2022-02-23 15:10:46.857 +06 [428306] LOG C-0x55b0885ee080: test/rakib@127.0.0.1:35078 login attempt: db=test user=rakib tls=no
+2022-02-23 15:10:46.857 +06 [428306] DEBUG finish_client_login: no welcome message, pause
+2022-02-23 15:10:46.857 +06 [428306] DEBUG C-0x55b0885ee080: test/rakib@127.0.0.1:35078 pause_client
+2022-02-23 15:10:46.857 +06 [428306] DEBUG zone_register(localhost)
+2022-02-23 15:10:46.857 +06 [428306] DEBUG S-0x55b0885f4e00: test/rakib@(bad-af):0 dns_callback: inet4: 127.0.0.1:5432
+2022-02-23 15:10:46.857 +06 [428306] DEBUG S-0x55b0885f4e00: test/rakib@127.0.0.1:5432 launching new connection to server
+2022-02-23 15:10:46.857 +06 [428306] DEBUG launch_new_connection: already progress
+2022-02-23 15:10:46.857 +06 [428306] DEBUG S-0x55b0885f4e00: test/rakib@127.0.0.1:5432 S: connect ok
+2022-02-23 15:10:46.857 +06 [428306] LOG S-0x55b0885f4e00: test/rakib@127.0.0.1:5432 new connection to server (from 127.0.0.1:59108)
+2022-02-23 15:10:46.857 +06 [428306] DEBUG pktbuf_dynamic(512): 0x55b0885ed640
+2022-02-23 15:10:46.857 +06 [428306] DEBUG launch_new_connection: already progress
+2022-02-23 15:10:46.861 +06 [428306] DEBUG S-0x55b0885f4e00: test/rakib@127.0.0.1:5432 calling login_answer
+2022-02-23 15:10:46.861 +06 [428306] DEBUG S-0x55b0885f4e00: test/rakib@127.0.0.1:5432 S: req SASL
+2022-02-23 15:10:46.861 +06 [428306] DEBUG S-0x55b0885f4e00: test/rakib@127.0.0.1:5432 S: SASL advertised mechanism: SCRAM-SHA-256
+2022-02-23 15:10:46.861 +06 [428306] DEBUG S-0x55b0885f4e00: test/rakib@127.0.0.1:5432 SCRAM client-first-message = "n,,n=,r=lY7PJQLfOqwzN4nMkG9DJJhi"
+2022-02-23 15:10:46.861 +06 [428306] DEBUG S-0x55b0885f4e00: test/rakib@127.0.0.1:5432 P: send SASLInitialResponse
+2022-02-23 15:10:46.861 +06 [428306] DEBUG launch_new_connection: already progress
+2022-02-23 15:10:46.861 +06 [428306] DEBUG S-0x55b0885f4e00: test/rakib@127.0.0.1:5432 calling login_answer
+2022-02-23 15:10:46.861 +06 [428306] DEBUG S-0x55b0885f4e00: test/rakib@127.0.0.1:5432 S: SASL cont
+2022-02-23 15:10:46.861 +06 [428306] DEBUG S-0x55b0885f4e00: test/rakib@127.0.0.1:5432 SCRAM server-first-message = "r=lY7PJQLfOqwzN4nMkG9DJJhiIunjqXRm99jvZhPkFfS1zxTq,s=pIO3v9sHCrv2chzDevBUvg==,i=4096"
+2022-02-23 15:10:46.881 +06 [428306] DEBUG S-0x55b0885f4e00: test/rakib@127.0.0.1:5432 SCRAM client-final-message = "c=biws,r=lY7PJQLfOqwzN4nMkG9DJJhiIunjqXRm99jvZhPkFfS1zxTq,p=kzuMAwERbMhmzuiMHE3MJMMFbmiJCm3N+XBy7nxmmrA="
+2022-02-23 15:10:46.881 +06 [428306] DEBUG S-0x55b0885f4e00: test/rakib@127.0.0.1:5432 P: send SASLResponse
+2022-02-23 15:10:46.881 +06 [428306] DEBUG launch_new_connection: already progress
+2022-02-23 15:10:46.881 +06 [428306] DEBUG S-0x55b0885f4e00: test/rakib@127.0.0.1:5432 calling login_answer
+2022-02-23 15:10:46.881 +06 [428306] DEBUG S-0x55b0885f4e00: test/rakib@127.0.0.1:5432 S: SASL final
+2022-02-23 15:10:46.881 +06 [428306] DEBUG S-0x55b0885f4e00: test/rakib@127.0.0.1:5432 SCRAM server-final-message = "v=MN02Q9x1YiqcyG4yX1fziqsphyAGBrSnAjEhUlrW+XQ="
+2022-02-23 15:10:46.881 +06 [428306] DEBUG S-0x55b0885f4e00: test/rakib@127.0.0.1:5432 calling login_answer
+2022-02-23 15:10:46.881 +06 [428306] DEBUG S-0x55b0885f4e00: test/rakib@127.0.0.1:5432 S: auth ok
+2022-02-23 15:10:46.881 +06 [428306] DEBUG S-0x55b0885f4e00: test/rakib@127.0.0.1:5432 S: param: application_name = 
+2022-02-23 15:10:46.881 +06 [428306] DEBUG pktbuf_dynamic(128): 0x55b0885ed820
+2022-02-23 15:10:46.881 +06 [428306] DEBUG S-0x55b0885f4e00: test/rakib@127.0.0.1:5432 S: param: client_encoding = UTF8
+2022-02-23 15:10:46.881 +06 [428306] DEBUG S-0x55b0885f4e00: test/rakib@127.0.0.1:5432 S: param: DateStyle = ISO, DMY
+2022-02-23 15:10:46.881 +06 [428306] DEBUG S-0x55b0885f4e00: test/rakib@127.0.0.1:5432 S: param: default_transaction_read_only = off
+2022-02-23 15:10:46.881 +06 [428306] DEBUG S-0x55b0885f4e00: test/rakib@127.0.0.1:5432 S: param: in_hot_standby = off
+2022-02-23 15:10:46.881 +06 [428306] DEBUG S-0x55b0885f4e00: test/rakib@127.0.0.1:5432 S: param: integer_datetimes = on
+2022-02-23 15:10:46.881 +06 [428306] DEBUG S-0x55b0885f4e00: test/rakib@127.0.0.1:5432 S: param: IntervalStyle = postgres
+2022-02-23 15:10:46.881 +06 [428306] DEBUG S-0x55b0885f4e00: test/rakib@127.0.0.1:5432 S: param: is_superuser = off
+2022-02-23 15:10:46.881 +06 [428306] DEBUG make_room(0x55b0885ed820, 4): realloc newlen=256
+2022-02-23 15:10:46.881 +06 [428306] DEBUG S-0x55b0885f4e00: test/rakib@127.0.0.1:5432 S: param: server_encoding = UTF8
+2022-02-23 15:10:46.881 +06 [428306] DEBUG S-0x55b0885f4e00: test/rakib@127.0.0.1:5432 S: param: server_version = 14.1 (Ubuntu 14.1-2.pgdg20.04+1)
+2022-02-23 15:10:46.881 +06 [428306] DEBUG S-0x55b0885f4e00: test/rakib@127.0.0.1:5432 S: param: session_authorization = rakib
+2022-02-23 15:10:46.881 +06 [428306] DEBUG make_room(0x55b0885ed820, 6): realloc newlen=512
+2022-02-23 15:10:46.881 +06 [428306] DEBUG S-0x55b0885f4e00: test/rakib@127.0.0.1:5432 S: param: standard_conforming_strings = on
+2022-02-23 15:10:46.881 +06 [428306] DEBUG S-0x55b0885f4e00: test/rakib@127.0.0.1:5432 S: param: TimeZone = Asia/Dhaka
+2022-02-23 15:10:46.881 +06 [428306] DEBUG S-0x55b0885f4e00: test/rakib@127.0.0.1:5432 server login ok, start accepting queries
+2022-02-23 15:10:46.881 +06 [428306] DEBUG C-0x55b0885ee080: test/rakib@127.0.0.1:35078 activate_client
+2022-02-23 15:10:46.881 +06 [428306] DEBUG C-0x55b0885ee080: test/rakib@127.0.0.1:35078 logged in
+2022-02-23 15:11:18.155 +06 [428306] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 406 us
+2022-02-23 15:12:18.155 +06 [428306] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 15:13:18.155 +06 [428306] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 15:14:18.157 +06 [428306] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 15:15:18.154 +06 [428306] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 15:16:18.160 +06 [428306] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 15:17:18.160 +06 [428306] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 15:18:18.159 +06 [428306] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 15:19:18.157 +06 [428306] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 15:20:18.159 +06 [428306] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 15:20:43.176 +06 [428306] LOG C-0x55b0885ee080: test/rakib@127.0.0.1:35078 closing because: client close request (age=596s)
+2022-02-23 15:20:47.157 +06 [428306] LOG S-0x55b0885f4e00: test/rakib@127.0.0.1:5432 closing because: server idle timeout (age=600s)
+2022-02-23 15:21:03.335 +06 [428306] DEBUG C-0x55b0885ee080: (nodb)/(nouser)@127.0.0.1:35080 P: got connection: 127.0.0.1:35080 -> 127.0.0.1:6432
+2022-02-23 15:21:03.335 +06 [428306] DEBUG C-0x55b0885ee080: (nodb)/(nouser)@127.0.0.1:35080 got var: user=rakib
+2022-02-23 15:21:03.335 +06 [428306] DEBUG C-0x55b0885ee080: (nodb)/(nouser)@127.0.0.1:35080 got var: database=pgbouncer
+2022-02-23 15:21:03.335 +06 [428306] DEBUG C-0x55b0885ee080: (nodb)/(nouser)@127.0.0.1:35080 using application_name: psql
+2022-02-23 15:21:03.335 +06 [428306] DEBUG C-0x55b0885ee080: (nodb)/(nouser)@127.0.0.1:35080 got var: client_encoding=UTF8
+2022-02-23 15:21:03.335 +06 [428306] LOG C-0x55b0885ee080: pgbouncer/rakib@127.0.0.1:35080 login attempt: db=pgbouncer user=rakib tls=no
+2022-02-23 15:21:06.471 +06 [428306] DEBUG C-0x55b0885ee080: (nodb)/(nouser)@127.0.0.1:35082 P: got connection: 127.0.0.1:35082 -> 127.0.0.1:6432
+2022-02-23 15:21:06.471 +06 [428306] DEBUG C-0x55b0885ee080: (nodb)/(nouser)@127.0.0.1:35082 got var: user=rakib
+2022-02-23 15:21:06.471 +06 [428306] DEBUG C-0x55b0885ee080: (nodb)/(nouser)@127.0.0.1:35082 got var: database=pgbouncer
+2022-02-23 15:21:06.471 +06 [428306] DEBUG C-0x55b0885ee080: (nodb)/(nouser)@127.0.0.1:35082 using application_name: psql
+2022-02-23 15:21:06.471 +06 [428306] DEBUG C-0x55b0885ee080: (nodb)/(nouser)@127.0.0.1:35082 got var: client_encoding=UTF8
+2022-02-23 15:21:06.471 +06 [428306] LOG C-0x55b0885ee080: pgbouncer/rakib@127.0.0.1:35082 login attempt: db=pgbouncer user=rakib tls=no
+2022-02-23 15:21:06.471 +06 [428306] DEBUG C-0x55b0885ee080: pgbouncer/rakib@127.0.0.1:35082 logged in
+2022-02-23 15:21:13.374 +06 [428306] DEBUG got admin query: show help;
+2022-02-23 15:21:18.158 +06 [428306] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 15:22:18.160 +06 [428306] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 15:23:18.156 +06 [428306] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-23 15:23:32.314 +06 [428306] LOG got SIGHUP, re-reading config
+2022-02-23 15:23:32.315 +06 [428306] DEBUG parse_ini_file: [databases]
+2022-02-23 15:23:32.315 +06 [428306] DEBUG parse_ini_file: 'postgres' = 'host=127.0.0.1 port=5432 dbname=postgres'
+2022-02-23 15:23:32.315 +06 [428306] DEBUG parse_ini_file: 'postgres' = 'host=127.0.0.1 port=5432 dbname=postgres' ok:1
+2022-02-23 15:23:32.315 +06 [428306] DEBUG parse_ini_file: 'test' = 'host=localhost port=5432 dbname=test'
+2022-02-23 15:23:32.315 +06 [428306] DEBUG parse_ini_file: 'test' = 'host=localhost port=5432 dbname=test' ok:1
+2022-02-23 15:23:32.315 +06 [428306] DEBUG parse_ini_file: [pgbouncer]
+2022-02-23 15:23:32.315 +06 [428306] DEBUG parse_ini_file: 'listen_port' = '6432'
+2022-02-23 15:23:32.315 +06 [428306] DEBUG parse_ini_file: 'listen_port' = '6432' ok:1
+2022-02-23 15:23:32.315 +06 [428306] DEBUG parse_ini_file: 'listen_addr' = 'localhost'
+2022-02-23 15:23:32.315 +06 [428306] DEBUG parse_ini_file: 'listen_addr' = 'localhost' ok:1
+2022-02-23 15:23:32.315 +06 [428306] DEBUG parse_ini_file: 'auth_type' = 'md5'
+2022-02-23 15:23:32.315 +06 [428306] DEBUG parse_ini_file: 'auth_type' = 'md5' ok:1
+2022-02-23 15:23:32.315 +06 [428306] DEBUG parse_ini_file: 'auth_file' = 'userlist.txt'
+2022-02-23 15:23:32.315 +06 [428306] DEBUG parse_ini_file: 'auth_file' = 'userlist.txt' ok:1
+2022-02-23 15:23:32.315 +06 [428306] DEBUG parse_ini_file: 'logfile' = 'pgbouncer.log'
+2022-02-23 15:23:32.315 +06 [428306] DEBUG parse_ini_file: 'logfile' = 'pgbouncer.log' ok:1
+2022-02-23 15:23:32.315 +06 [428306] DEBUG parse_ini_file: 'pidfile' = 'pgbouncer.pid'
+2022-02-23 15:23:32.315 +06 [428306] DEBUG parse_ini_file: 'pidfile' = 'pgbouncer.pid' ok:1
+2022-02-23 15:23:32.315 +06 [428306] DEBUG parse_ini_file: 'admin_users' = 'postgres, rakib'
+2022-02-23 15:23:32.315 +06 [428306] DEBUG parse_ini_file: 'admin_users' = 'postgres, rakib' ok:1
+2022-02-23 15:23:32.326 +06 [428306] LOG C-0x55b0885ee080: pgbouncer/rakib@127.0.0.1:35082 closing because: client close request (age=145s)
+2022-02-23 15:24:18.156 +06 [428306] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 10:18:44.302 +06 [23404] LOG stale pidfile, removing
+2022-02-28 10:18:44.303 +06 [23406] LOG kernel file descriptor limit: 1024 (hard: 1048576); max_client_conn: 100, max expected fd use: 192
+2022-02-28 10:18:44.303 +06 [23406] WARNING cannot listen on 127.0.0.1:6432: bind(): Address already in use
+2022-02-28 10:18:44.303 +06 [23406] LOG listening on unix:/tmp/.s.PGSQL.6432
+2022-02-28 10:18:44.303 +06 [23406] LOG process up: PgBouncer 1.16.1, libevent 2.1.11-stable (epoll), adns: evdns2, tls: OpenSSL 1.1.1f  31 Mar 2020
+2022-02-28 10:19:34.639 +06 [24309] DEBUG parse_ini_file: 'logfile' = 'pgbouncer.log' ok:1
+2022-02-28 10:19:34.639 +06 [24309] DEBUG parse_ini_file: 'pidfile' = 'pgbouncer.pid'
+2022-02-28 10:19:34.639 +06 [24309] DEBUG parse_ini_file: 'pidfile' = 'pgbouncer.pid' ok:1
+2022-02-28 10:19:34.639 +06 [24309] DEBUG parse_ini_file: 'admin_users' = 'postgres, rakib'
+2022-02-28 10:19:34.639 +06 [24309] DEBUG parse_ini_file: 'admin_users' = 'postgres, rakib' ok:1
+2022-02-28 10:19:34.639 +06 [24309] DEBUG loading auth_file: "userlist.txt"
+2022-02-28 10:19:34.642 +06 [24309] DEBUG pktbuf_dynamic(128): 0x5643ca8d9d50
+2022-02-28 10:19:34.642 +06 [24309] DEBUG make_room(0x5643ca8d9d50, 9): realloc newlen=256
+2022-02-28 10:19:34.642 +06 [24309] DEBUG pktbuf_dynamic(128): 0x5643ca8d9a40
+2022-02-28 10:19:34.643 +06 [24309] FATAL unix socket is in use, cannot continue
+2022-02-28 10:19:44.304 +06 [23406] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 10:20:16.913 +06 [25047] DEBUG parse_ini_file: 'logfile' = 'pgbouncer.log' ok:1
+2022-02-28 10:20:16.913 +06 [25047] DEBUG parse_ini_file: 'pidfile' = 'pgbouncer.pid'
+2022-02-28 10:20:16.913 +06 [25047] DEBUG parse_ini_file: 'pidfile' = 'pgbouncer.pid' ok:1
+2022-02-28 10:20:16.913 +06 [25047] DEBUG parse_ini_file: 'admin_users' = 'postgres, rakib'
+2022-02-28 10:20:16.913 +06 [25047] DEBUG parse_ini_file: 'admin_users' = 'postgres, rakib' ok:1
+2022-02-28 10:20:16.913 +06 [25047] DEBUG loading auth_file: "userlist.txt"
+2022-02-28 10:20:16.914 +06 [25047] DEBUG pktbuf_dynamic(128): 0x559abe580d50
+2022-02-28 10:20:16.914 +06 [25047] DEBUG make_room(0x559abe580d50, 9): realloc newlen=256
+2022-02-28 10:20:16.914 +06 [25047] DEBUG pktbuf_dynamic(128): 0x559abe580a40
+2022-02-28 10:20:16.914 +06 [25047] LOG stale pidfile, removing
+2022-02-28 10:20:16.914 +06 [25047] LOG kernel file descriptor limit: 1024 (hard: 1048576); max_client_conn: 100, max expected fd use: 192
+2022-02-28 10:20:16.914 +06 [25047] DEBUG adns_create_context: evdns2
+2022-02-28 10:20:16.914 +06 [25047] DEBUG add_listen: 127.0.0.1:6432
+2022-02-28 10:20:16.914 +06 [25047] WARNING cannot listen on 127.0.0.1:6432: bind(): Address already in use
+2022-02-28 10:20:16.914 +06 [25047] DEBUG add_listen: unix:/tmp/.s.PGSQL.6432
+2022-02-28 10:20:16.914 +06 [25047] LOG listening on unix:/tmp/.s.PGSQL.6432
+2022-02-28 10:20:16.914 +06 [25047] LOG process up: PgBouncer 1.16.1, libevent 2.1.11-stable (epoll), adns: evdns2, tls: OpenSSL 1.1.1f  31 Mar 2020
+2022-02-28 10:21:02.696 +06 [25047] LOG got SIGINT, shutting down
+2022-02-28 10:21:02.915 +06 [25047] LOG server connections dropped, exiting
+2022-02-28 10:21:33.575 +06 [26417] DEBUG parse_ini_file: 'logfile' = 'pgbouncer.log' ok:1
+2022-02-28 10:21:33.575 +06 [26417] DEBUG parse_ini_file: 'pidfile' = 'pgbouncer.pid'
+2022-02-28 10:21:33.575 +06 [26417] DEBUG parse_ini_file: 'pidfile' = 'pgbouncer.pid' ok:1
+2022-02-28 10:21:33.575 +06 [26417] DEBUG parse_ini_file: 'admin_users' = 'postgres, rakib'
+2022-02-28 10:21:33.575 +06 [26417] DEBUG parse_ini_file: 'admin_users' = 'postgres, rakib' ok:1
+2022-02-28 10:21:33.575 +06 [26417] DEBUG loading auth_file: "userlist.txt"
+2022-02-28 10:21:33.576 +06 [26417] DEBUG pktbuf_dynamic(128): 0x55ca3af78d50
+2022-02-28 10:21:33.576 +06 [26417] DEBUG make_room(0x55ca3af78d50, 9): realloc newlen=256
+2022-02-28 10:21:33.576 +06 [26417] DEBUG pktbuf_dynamic(128): 0x55ca3af78a40
+2022-02-28 10:21:33.576 +06 [26417] LOG kernel file descriptor limit: 1024 (hard: 1048576); max_client_conn: 100, max expected fd use: 192
+2022-02-28 10:21:33.576 +06 [26417] DEBUG adns_create_context: evdns2
+2022-02-28 10:21:33.576 +06 [26417] DEBUG add_listen: 127.0.0.1:6432
+2022-02-28 10:21:33.577 +06 [26417] LOG listening on 127.0.0.1:6432
+2022-02-28 10:21:33.577 +06 [26417] DEBUG add_listen: unix:/tmp/.s.PGSQL.6432
+2022-02-28 10:21:33.577 +06 [26417] LOG listening on unix:/tmp/.s.PGSQL.6432
+2022-02-28 10:21:33.577 +06 [26417] LOG process up: PgBouncer 1.16.1, libevent 2.1.11-stable (epoll), adns: evdns2, tls: OpenSSL 1.1.1f  31 Mar 2020
+2022-02-28 10:21:45.151 +06 [26417] DEBUG C-0x55ca3af91080: (nodb)/(nouser)@127.0.0.1:45524 P: got connection: 127.0.0.1:45524 -> 127.0.0.1:6432
+2022-02-28 10:21:45.151 +06 [26417] DEBUG C-0x55ca3af91080: (nodb)/(nouser)@127.0.0.1:45524 got var: user=rakib
+2022-02-28 10:21:45.151 +06 [26417] DEBUG C-0x55ca3af91080: (nodb)/(nouser)@127.0.0.1:45524 got var: database=test
+2022-02-28 10:21:45.151 +06 [26417] DEBUG C-0x55ca3af91080: (nodb)/(nouser)@127.0.0.1:45524 using application_name: psql
+2022-02-28 10:21:45.151 +06 [26417] DEBUG C-0x55ca3af91080: (nodb)/(nouser)@127.0.0.1:45524 got var: client_encoding=UTF8
+2022-02-28 10:21:45.151 +06 [26417] LOG C-0x55ca3af91080: test/rakib@127.0.0.1:45524 login attempt: db=test user=rakib tls=no
+2022-02-28 10:21:49.089 +06 [26417] DEBUG C-0x55ca3af91080: (nodb)/(nouser)@127.0.0.1:45526 P: got connection: 127.0.0.1:45526 -> 127.0.0.1:6432
+2022-02-28 10:21:49.089 +06 [26417] DEBUG C-0x55ca3af91080: (nodb)/(nouser)@127.0.0.1:45526 got var: user=rakib
+2022-02-28 10:21:49.089 +06 [26417] DEBUG C-0x55ca3af91080: (nodb)/(nouser)@127.0.0.1:45526 got var: database=test
+2022-02-28 10:21:49.089 +06 [26417] DEBUG C-0x55ca3af91080: (nodb)/(nouser)@127.0.0.1:45526 using application_name: psql
+2022-02-28 10:21:49.089 +06 [26417] DEBUG C-0x55ca3af91080: (nodb)/(nouser)@127.0.0.1:45526 got var: client_encoding=UTF8
+2022-02-28 10:21:49.089 +06 [26417] LOG C-0x55ca3af91080: test/rakib@127.0.0.1:45526 login attempt: db=test user=rakib tls=no
+2022-02-28 10:21:49.090 +06 [26417] DEBUG finish_client_login: no welcome message, pause
+2022-02-28 10:21:49.090 +06 [26417] DEBUG C-0x55ca3af91080: test/rakib@127.0.0.1:45526 pause_client
+2022-02-28 10:21:49.090 +06 [26417] DEBUG zone_register(localhost)
+2022-02-28 10:21:49.090 +06 [26417] DEBUG S-0x55ca3af97e00: test/rakib@(bad-af):0 dns_callback: inet4: 127.0.0.1:5432
+2022-02-28 10:21:49.090 +06 [26417] DEBUG S-0x55ca3af97e00: test/rakib@127.0.0.1:5432 launching new connection to server
+2022-02-28 10:21:49.090 +06 [26417] DEBUG launch_new_connection: already progress
+2022-02-28 10:21:49.090 +06 [26417] DEBUG S-0x55ca3af97e00: test/rakib@127.0.0.1:5432 S: connect ok
+2022-02-28 10:21:49.090 +06 [26417] LOG S-0x55ca3af97e00: test/rakib@127.0.0.1:5432 new connection to server (from 127.0.0.1:34936)
+2022-02-28 10:21:49.090 +06 [26417] DEBUG pktbuf_dynamic(512): 0x55ca3af90640
+2022-02-28 10:21:49.090 +06 [26417] DEBUG launch_new_connection: already progress
+2022-02-28 10:21:49.093 +06 [26417] DEBUG S-0x55ca3af97e00: test/rakib@127.0.0.1:5432 calling login_answer
+2022-02-28 10:21:49.093 +06 [26417] DEBUG S-0x55ca3af97e00: test/rakib@127.0.0.1:5432 S: req SASL
+2022-02-28 10:21:49.093 +06 [26417] DEBUG S-0x55ca3af97e00: test/rakib@127.0.0.1:5432 S: SASL advertised mechanism: SCRAM-SHA-256
+2022-02-28 10:21:49.093 +06 [26417] DEBUG S-0x55ca3af97e00: test/rakib@127.0.0.1:5432 SCRAM client-first-message = "n,,n=,r=B5wIQHCQnnCH004Dq4PfbbLp"
+2022-02-28 10:21:49.093 +06 [26417] DEBUG S-0x55ca3af97e00: test/rakib@127.0.0.1:5432 P: send SASLInitialResponse
+2022-02-28 10:21:49.093 +06 [26417] DEBUG launch_new_connection: already progress
+2022-02-28 10:21:49.093 +06 [26417] DEBUG S-0x55ca3af97e00: test/rakib@127.0.0.1:5432 calling login_answer
+2022-02-28 10:21:49.093 +06 [26417] DEBUG S-0x55ca3af97e00: test/rakib@127.0.0.1:5432 S: SASL cont
+2022-02-28 10:21:49.093 +06 [26417] DEBUG S-0x55ca3af97e00: test/rakib@127.0.0.1:5432 SCRAM server-first-message = "r=B5wIQHCQnnCH004Dq4PfbbLp9k8vmf2OjiC4EsqMMYWuSkAQ,s=pIO3v9sHCrv2chzDevBUvg==,i=4096"
+2022-02-28 10:21:49.114 +06 [26417] DEBUG S-0x55ca3af97e00: test/rakib@127.0.0.1:5432 SCRAM client-final-message = "c=biws,r=B5wIQHCQnnCH004Dq4PfbbLp9k8vmf2OjiC4EsqMMYWuSkAQ,p=hmgV6APa+/aAg9kHxiyLoMOLT3Hw7cvdoCxjurjoEOc="
+2022-02-28 10:21:49.114 +06 [26417] DEBUG S-0x55ca3af97e00: test/rakib@127.0.0.1:5432 P: send SASLResponse
+2022-02-28 10:21:49.114 +06 [26417] DEBUG launch_new_connection: already progress
+2022-02-28 10:21:49.115 +06 [26417] DEBUG S-0x55ca3af97e00: test/rakib@127.0.0.1:5432 calling login_answer
+2022-02-28 10:21:49.115 +06 [26417] DEBUG S-0x55ca3af97e00: test/rakib@127.0.0.1:5432 S: SASL final
+2022-02-28 10:21:49.115 +06 [26417] DEBUG S-0x55ca3af97e00: test/rakib@127.0.0.1:5432 SCRAM server-final-message = "v=DvNXwLDfFwT+ZhirDYVtaFT9+0uByD3LNuWJBh0d3YM="
+2022-02-28 10:21:49.115 +06 [26417] DEBUG S-0x55ca3af97e00: test/rakib@127.0.0.1:5432 calling login_answer
+2022-02-28 10:21:49.115 +06 [26417] DEBUG S-0x55ca3af97e00: test/rakib@127.0.0.1:5432 S: auth ok
+2022-02-28 10:21:49.115 +06 [26417] DEBUG S-0x55ca3af97e00: test/rakib@127.0.0.1:5432 S: param: application_name = 
+2022-02-28 10:21:49.115 +06 [26417] DEBUG pktbuf_dynamic(128): 0x55ca3af90820
+2022-02-28 10:21:49.115 +06 [26417] DEBUG S-0x55ca3af97e00: test/rakib@127.0.0.1:5432 S: param: client_encoding = UTF8
+2022-02-28 10:21:49.115 +06 [26417] DEBUG S-0x55ca3af97e00: test/rakib@127.0.0.1:5432 S: param: DateStyle = ISO, DMY
+2022-02-28 10:21:49.115 +06 [26417] DEBUG S-0x55ca3af97e00: test/rakib@127.0.0.1:5432 S: param: default_transaction_read_only = off
+2022-02-28 10:21:49.115 +06 [26417] DEBUG S-0x55ca3af97e00: test/rakib@127.0.0.1:5432 S: param: in_hot_standby = off
+2022-02-28 10:21:49.115 +06 [26417] DEBUG S-0x55ca3af97e00: test/rakib@127.0.0.1:5432 S: param: integer_datetimes = on
+2022-02-28 10:21:49.115 +06 [26417] DEBUG S-0x55ca3af97e00: test/rakib@127.0.0.1:5432 S: param: IntervalStyle = postgres
+2022-02-28 10:21:49.115 +06 [26417] DEBUG S-0x55ca3af97e00: test/rakib@127.0.0.1:5432 S: param: is_superuser = off
+2022-02-28 10:21:49.115 +06 [26417] DEBUG make_room(0x55ca3af90820, 4): realloc newlen=256
+2022-02-28 10:21:49.115 +06 [26417] DEBUG S-0x55ca3af97e00: test/rakib@127.0.0.1:5432 S: param: server_encoding = UTF8
+2022-02-28 10:21:49.115 +06 [26417] DEBUG S-0x55ca3af97e00: test/rakib@127.0.0.1:5432 S: param: server_version = 14.1 (Ubuntu 14.1-2.pgdg20.04+1)
+2022-02-28 10:21:49.115 +06 [26417] DEBUG S-0x55ca3af97e00: test/rakib@127.0.0.1:5432 S: param: session_authorization = rakib
+2022-02-28 10:21:49.115 +06 [26417] DEBUG make_room(0x55ca3af90820, 6): realloc newlen=512
+2022-02-28 10:21:49.115 +06 [26417] DEBUG S-0x55ca3af97e00: test/rakib@127.0.0.1:5432 S: param: standard_conforming_strings = on
+2022-02-28 10:21:49.115 +06 [26417] DEBUG S-0x55ca3af97e00: test/rakib@127.0.0.1:5432 S: param: TimeZone = Asia/Dhaka
+2022-02-28 10:21:49.115 +06 [26417] DEBUG S-0x55ca3af97e00: test/rakib@127.0.0.1:5432 server login ok, start accepting queries
+2022-02-28 10:21:49.115 +06 [26417] DEBUG C-0x55ca3af91080: test/rakib@127.0.0.1:45526 activate_client
+2022-02-28 10:21:49.115 +06 [26417] DEBUG C-0x55ca3af91080: test/rakib@127.0.0.1:45526 logged in
+2022-02-28 10:22:26.038 +06 [26417] DEBUG C-0x55ca3af912b0: (nodb)/(nouser)@127.0.0.1:45528 P: got connection: 127.0.0.1:45528 -> 127.0.0.1:6432
+2022-02-28 10:22:26.038 +06 [26417] DEBUG C-0x55ca3af912b0: (nodb)/(nouser)@127.0.0.1:45528 got var: user=rakib
+2022-02-28 10:22:26.038 +06 [26417] DEBUG C-0x55ca3af912b0: (nodb)/(nouser)@127.0.0.1:45528 got var: database=pgbouncer
+2022-02-28 10:22:26.038 +06 [26417] DEBUG C-0x55ca3af912b0: (nodb)/(nouser)@127.0.0.1:45528 using application_name: psql
+2022-02-28 10:22:26.038 +06 [26417] DEBUG C-0x55ca3af912b0: (nodb)/(nouser)@127.0.0.1:45528 got var: client_encoding=UTF8
+2022-02-28 10:22:26.038 +06 [26417] LOG C-0x55ca3af912b0: pgbouncer/rakib@127.0.0.1:45528 login attempt: db=pgbouncer user=rakib tls=no
+2022-02-28 10:22:29.570 +06 [26417] DEBUG C-0x55ca3af912b0: (nodb)/(nouser)@127.0.0.1:45530 P: got connection: 127.0.0.1:45530 -> 127.0.0.1:6432
+2022-02-28 10:22:29.570 +06 [26417] DEBUG C-0x55ca3af912b0: (nodb)/(nouser)@127.0.0.1:45530 got var: user=rakib
+2022-02-28 10:22:29.570 +06 [26417] DEBUG C-0x55ca3af912b0: (nodb)/(nouser)@127.0.0.1:45530 got var: database=pgbouncer
+2022-02-28 10:22:29.570 +06 [26417] DEBUG C-0x55ca3af912b0: (nodb)/(nouser)@127.0.0.1:45530 using application_name: psql
+2022-02-28 10:22:29.570 +06 [26417] DEBUG C-0x55ca3af912b0: (nodb)/(nouser)@127.0.0.1:45530 got var: client_encoding=UTF8
+2022-02-28 10:22:29.570 +06 [26417] LOG C-0x55ca3af912b0: pgbouncer/rakib@127.0.0.1:45530 login attempt: db=pgbouncer user=rakib tls=no
+2022-02-28 10:22:29.570 +06 [26417] DEBUG C-0x55ca3af912b0: pgbouncer/rakib@127.0.0.1:45530 logged in
+2022-02-28 10:22:33.580 +06 [26417] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 415 us
+2022-02-28 10:23:33.576 +06 [26417] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 10:23:55.604 +06 [26417] DEBUG C-0x55ca3af914e0: (nodb)/(nouser)@127.0.0.1:45532 P: got connection: 127.0.0.1:45532 -> 127.0.0.1:6432
+2022-02-28 10:23:55.604 +06 [26417] DEBUG C-0x55ca3af914e0: (nodb)/(nouser)@127.0.0.1:45532 got var: user=rakibul
+2022-02-28 10:23:55.604 +06 [26417] DEBUG C-0x55ca3af914e0: (nodb)/(nouser)@127.0.0.1:45532 got var: database=pgbouncer
+2022-02-28 10:23:55.604 +06 [26417] DEBUG C-0x55ca3af914e0: (nodb)/(nouser)@127.0.0.1:45532 using application_name: psql
+2022-02-28 10:23:55.604 +06 [26417] DEBUG C-0x55ca3af914e0: (nodb)/(nouser)@127.0.0.1:45532 got var: client_encoding=UTF8
+2022-02-28 10:23:55.604 +06 [26417] LOG C-0x55ca3af914e0: (nodb)/(nouser)@127.0.0.1:45532 no such user: rakibul
+2022-02-28 10:23:55.604 +06 [26417] LOG C-0x55ca3af914e0: (nodb)/rakibul@127.0.0.1:45532 login attempt: db=pgbouncer user=rakibul tls=no
+2022-02-28 10:24:00.249 +06 [26417] DEBUG C-0x55ca3af914e0: (nodb)/(nouser)@127.0.0.1:45534 P: got connection: 127.0.0.1:45534 -> 127.0.0.1:6432
+2022-02-28 10:24:00.250 +06 [26417] DEBUG C-0x55ca3af914e0: (nodb)/(nouser)@127.0.0.1:45534 got var: user=rakibul
+2022-02-28 10:24:00.250 +06 [26417] DEBUG C-0x55ca3af914e0: (nodb)/(nouser)@127.0.0.1:45534 got var: database=pgbouncer
+2022-02-28 10:24:00.250 +06 [26417] DEBUG C-0x55ca3af914e0: (nodb)/(nouser)@127.0.0.1:45534 using application_name: psql
+2022-02-28 10:24:00.250 +06 [26417] DEBUG C-0x55ca3af914e0: (nodb)/(nouser)@127.0.0.1:45534 got var: client_encoding=UTF8
+2022-02-28 10:24:00.250 +06 [26417] LOG C-0x55ca3af914e0: (nodb)/(nouser)@127.0.0.1:45534 no such user: rakibul
+2022-02-28 10:24:00.250 +06 [26417] LOG C-0x55ca3af914e0: (nodb)/rakibul@127.0.0.1:45534 login attempt: db=pgbouncer user=rakibul tls=no
+2022-02-28 10:24:00.250 +06 [26417] LOG C-0x55ca3af914e0: (nodb)/rakibul@127.0.0.1:45534 closing because: password authentication failed (age=0s)
+2022-02-28 10:24:00.250 +06 [26417] WARNING C-0x55ca3af914e0: (nodb)/rakibul@127.0.0.1:45534 pooler error: password authentication failed
+2022-02-28 10:24:24.058 +06 [26417] DEBUG C-0x55ca3af914e0: (nodb)/(nouser)@127.0.0.1:45536 P: got connection: 127.0.0.1:45536 -> 127.0.0.1:6432
+2022-02-28 10:24:24.058 +06 [26417] DEBUG C-0x55ca3af914e0: (nodb)/(nouser)@127.0.0.1:45536 got var: user=rakibul
+2022-02-28 10:24:24.058 +06 [26417] DEBUG C-0x55ca3af914e0: (nodb)/(nouser)@127.0.0.1:45536 got var: database=pgbouncer
+2022-02-28 10:24:24.058 +06 [26417] DEBUG C-0x55ca3af914e0: (nodb)/(nouser)@127.0.0.1:45536 using application_name: psql
+2022-02-28 10:24:24.058 +06 [26417] DEBUG C-0x55ca3af914e0: (nodb)/(nouser)@127.0.0.1:45536 got var: client_encoding=UTF8
+2022-02-28 10:24:24.058 +06 [26417] LOG C-0x55ca3af914e0: (nodb)/(nouser)@127.0.0.1:45536 no such user: rakibul
+2022-02-28 10:24:24.058 +06 [26417] LOG C-0x55ca3af914e0: (nodb)/rakibul@127.0.0.1:45536 login attempt: db=pgbouncer user=rakibul tls=no
+2022-02-28 10:24:24.786 +06 [26417] DEBUG C-0x55ca3af914e0: (nodb)/(nouser)@127.0.0.1:45538 P: got connection: 127.0.0.1:45538 -> 127.0.0.1:6432
+2022-02-28 10:24:24.786 +06 [26417] DEBUG C-0x55ca3af914e0: (nodb)/(nouser)@127.0.0.1:45538 got var: user=rakibul
+2022-02-28 10:24:24.786 +06 [26417] DEBUG C-0x55ca3af914e0: (nodb)/(nouser)@127.0.0.1:45538 got var: database=pgbouncer
+2022-02-28 10:24:24.786 +06 [26417] DEBUG C-0x55ca3af914e0: (nodb)/(nouser)@127.0.0.1:45538 using application_name: psql
+2022-02-28 10:24:24.786 +06 [26417] DEBUG C-0x55ca3af914e0: (nodb)/(nouser)@127.0.0.1:45538 got var: client_encoding=UTF8
+2022-02-28 10:24:24.786 +06 [26417] LOG C-0x55ca3af914e0: (nodb)/(nouser)@127.0.0.1:45538 no such user: rakibul
+2022-02-28 10:24:24.786 +06 [26417] LOG C-0x55ca3af914e0: (nodb)/rakibul@127.0.0.1:45538 login attempt: db=pgbouncer user=rakibul tls=no
+2022-02-28 10:24:27.388 +06 [26417] DEBUG C-0x55ca3af914e0: (nodb)/(nouser)@127.0.0.1:45540 P: got connection: 127.0.0.1:45540 -> 127.0.0.1:6432
+2022-02-28 10:24:27.388 +06 [26417] DEBUG C-0x55ca3af914e0: (nodb)/(nouser)@127.0.0.1:45540 got var: user=rakibul
+2022-02-28 10:24:27.388 +06 [26417] DEBUG C-0x55ca3af914e0: (nodb)/(nouser)@127.0.0.1:45540 got var: database=pgbouncer
+2022-02-28 10:24:27.388 +06 [26417] DEBUG C-0x55ca3af914e0: (nodb)/(nouser)@127.0.0.1:45540 using application_name: psql
+2022-02-28 10:24:27.388 +06 [26417] DEBUG C-0x55ca3af914e0: (nodb)/(nouser)@127.0.0.1:45540 got var: client_encoding=UTF8
+2022-02-28 10:24:27.388 +06 [26417] LOG C-0x55ca3af914e0: (nodb)/(nouser)@127.0.0.1:45540 no such user: rakibul
+2022-02-28 10:24:27.388 +06 [26417] LOG C-0x55ca3af914e0: (nodb)/rakibul@127.0.0.1:45540 login attempt: db=pgbouncer user=rakibul tls=no
+2022-02-28 10:24:29.882 +06 [26417] DEBUG C-0x55ca3af914e0: (nodb)/(nouser)@127.0.0.1:45542 P: got connection: 127.0.0.1:45542 -> 127.0.0.1:6432
+2022-02-28 10:24:29.882 +06 [26417] DEBUG C-0x55ca3af914e0: (nodb)/(nouser)@127.0.0.1:45542 got var: user=rakibul
+2022-02-28 10:24:29.882 +06 [26417] DEBUG C-0x55ca3af914e0: (nodb)/(nouser)@127.0.0.1:45542 got var: database=pgbouncer
+2022-02-28 10:24:29.882 +06 [26417] DEBUG C-0x55ca3af914e0: (nodb)/(nouser)@127.0.0.1:45542 using application_name: psql
+2022-02-28 10:24:29.882 +06 [26417] DEBUG C-0x55ca3af914e0: (nodb)/(nouser)@127.0.0.1:45542 got var: client_encoding=UTF8
+2022-02-28 10:24:29.882 +06 [26417] LOG C-0x55ca3af914e0: (nodb)/(nouser)@127.0.0.1:45542 no such user: rakibul
+2022-02-28 10:24:29.882 +06 [26417] LOG C-0x55ca3af914e0: (nodb)/rakibul@127.0.0.1:45542 login attempt: db=pgbouncer user=rakibul tls=no
+2022-02-28 10:24:29.882 +06 [26417] LOG C-0x55ca3af914e0: (nodb)/rakibul@127.0.0.1:45542 closing because: password authentication failed (age=0s)
+2022-02-28 10:24:29.882 +06 [26417] WARNING C-0x55ca3af914e0: (nodb)/rakibul@127.0.0.1:45542 pooler error: password authentication failed
+2022-02-28 10:24:33.578 +06 [26417] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 10:25:03.371 +06 [26417] DEBUG C-0x55ca3af914e0: (nodb)/(nouser)@127.0.0.1:45544 P: got connection: 127.0.0.1:45544 -> 127.0.0.1:6432
+2022-02-28 10:25:03.371 +06 [26417] DEBUG C-0x55ca3af914e0: (nodb)/(nouser)@127.0.0.1:45544 got var: user=rakibul
+2022-02-28 10:25:03.371 +06 [26417] DEBUG C-0x55ca3af914e0: (nodb)/(nouser)@127.0.0.1:45544 got var: database=pgbouncer
+2022-02-28 10:25:03.371 +06 [26417] DEBUG C-0x55ca3af914e0: (nodb)/(nouser)@127.0.0.1:45544 using application_name: psql
+2022-02-28 10:25:03.371 +06 [26417] DEBUG C-0x55ca3af914e0: (nodb)/(nouser)@127.0.0.1:45544 got var: client_encoding=UTF8
+2022-02-28 10:25:03.371 +06 [26417] LOG C-0x55ca3af914e0: (nodb)/(nouser)@127.0.0.1:45544 no such user: rakibul
+2022-02-28 10:25:03.371 +06 [26417] LOG C-0x55ca3af914e0: (nodb)/rakibul@127.0.0.1:45544 login attempt: db=pgbouncer user=rakibul tls=no
+2022-02-28 10:25:05.680 +06 [26417] DEBUG C-0x55ca3af914e0: (nodb)/(nouser)@127.0.0.1:45546 P: got connection: 127.0.0.1:45546 -> 127.0.0.1:6432
+2022-02-28 10:25:05.680 +06 [26417] DEBUG C-0x55ca3af914e0: (nodb)/(nouser)@127.0.0.1:45546 got var: user=rakibul
+2022-02-28 10:25:05.680 +06 [26417] DEBUG C-0x55ca3af914e0: (nodb)/(nouser)@127.0.0.1:45546 got var: database=pgbouncer
+2022-02-28 10:25:05.680 +06 [26417] DEBUG C-0x55ca3af914e0: (nodb)/(nouser)@127.0.0.1:45546 using application_name: psql
+2022-02-28 10:25:05.680 +06 [26417] DEBUG C-0x55ca3af914e0: (nodb)/(nouser)@127.0.0.1:45546 got var: client_encoding=UTF8
+2022-02-28 10:25:05.680 +06 [26417] LOG C-0x55ca3af914e0: (nodb)/(nouser)@127.0.0.1:45546 no such user: rakibul
+2022-02-28 10:25:05.680 +06 [26417] LOG C-0x55ca3af914e0: (nodb)/rakibul@127.0.0.1:45546 login attempt: db=pgbouncer user=rakibul tls=no
+2022-02-28 10:25:05.680 +06 [26417] LOG C-0x55ca3af914e0: (nodb)/rakibul@127.0.0.1:45546 closing because: password authentication failed (age=0s)
+2022-02-28 10:25:05.680 +06 [26417] WARNING C-0x55ca3af914e0: (nodb)/rakibul@127.0.0.1:45546 pooler error: password authentication failed
+2022-02-28 10:25:33.577 +06 [26417] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 10:25:43.441 +06 [26417] DEBUG C-0x55ca3af91080: test/rakib@127.0.0.1:45526 pause_client
+2022-02-28 10:25:43.441 +06 [26417] DEBUG S-0x55ca3af97e00: test/rakib@127.0.0.1:5432 P: checking: select 1
+2022-02-28 10:25:43.444 +06 [26417] DEBUG C-0x55ca3af91080: test/rakib@127.0.0.1:45526 activate_client
+2022-02-28 10:25:43.444 +06 [26417] DEBUG S-0x55ca3af97e00: test/rakib@127.0.0.1:5432 varcache_apply: SET application_name='psql';
+2022-02-28 10:25:43.445 +06 [26417] DEBUG S-0x55ca3af97e00: test/rakib@127.0.0.1:5432 S: param: application_name = psql
+2022-02-28 10:25:43.445 +06 [26417] DEBUG C-0x55ca3af91080: test/rakib@127.0.0.1:45526 setting client var: application_name='psql'
+2022-02-28 10:25:43.447 +06 [26417] DEBUG C-0x55ca3af91080: test/rakib@127.0.0.1:45526 query time: 6259 us
+2022-02-28 10:25:43.447 +06 [26417] DEBUG C-0x55ca3af91080: test/rakib@127.0.0.1:45526 transaction time: 6259 us
+2022-02-28 10:25:52.297 +06 [26417] DEBUG C-0x55ca3af91080: test/rakib@127.0.0.1:45526 query time: 8652 us
+2022-02-28 10:25:52.297 +06 [26417] DEBUG C-0x55ca3af91080: test/rakib@127.0.0.1:45526 transaction time: 8652 us
+2022-02-28 10:26:33.577 +06 [26417] LOG stats: 0 xacts/s, 0 queries/s, in 1 B/s, out 3 B/s, xact 7455 us, query 7455 us, wait 49 us
+2022-02-28 10:27:33.578 +06 [26417] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 10:28:33.576 +06 [26417] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 10:29:18.265 +06 [26417] LOG got SIGINT, shutting down
+2022-02-28 10:29:27.993 +06 [26417] LOG C-0x55ca3af91080: test/rakib@127.0.0.1:45526 closing because: client close request (age=458s)
+2022-02-28 10:29:27.994 +06 [26417] DEBUG S-0x55ca3af97e00: test/rakib@127.0.0.1:5432 resetting: DISCARD ALL
+2022-02-28 10:29:27.994 +06 [26417] DEBUG S-0x55ca3af97e00: test/rakib@127.0.0.1:5432 S: param: application_name = 
+2022-02-28 10:29:27.994 +06 [26417] LOG S-0x55ca3af97e00: test/rakib@127.0.0.1:5432 closing because: pause mode (age=458s)
+2022-02-28 10:29:28.244 +06 [26417] LOG server connections dropped, exiting
+2022-02-28 12:13:31.309 +06 [123500] DEBUG parse_ini_file: 'logfile' = 'pgbouncer.log' ok:1
+2022-02-28 12:13:31.309 +06 [123500] DEBUG parse_ini_file: 'pidfile' = 'pgbouncer.pid'
+2022-02-28 12:13:31.309 +06 [123500] DEBUG parse_ini_file: 'pidfile' = 'pgbouncer.pid' ok:1
+2022-02-28 12:13:31.309 +06 [123500] DEBUG parse_ini_file: 'admin_users' = 'postgres, rakib'
+2022-02-28 12:13:31.309 +06 [123500] DEBUG parse_ini_file: 'admin_users' = 'postgres, rakib' ok:1
+2022-02-28 12:13:31.309 +06 [123500] DEBUG loading auth_file: "userlist.txt"
+2022-02-28 12:13:31.313 +06 [123500] DEBUG pktbuf_dynamic(128): 0x55da61c57d50
+2022-02-28 12:13:31.313 +06 [123500] DEBUG make_room(0x55da61c57d50, 9): realloc newlen=256
+2022-02-28 12:13:31.313 +06 [123500] DEBUG pktbuf_dynamic(128): 0x55da61c57a40
+2022-02-28 12:13:31.313 +06 [123500] LOG kernel file descriptor limit: 1024 (hard: 1048576); max_client_conn: 100, max expected fd use: 192
+2022-02-28 12:13:31.313 +06 [123500] DEBUG adns_create_context: evdns2
+2022-02-28 12:13:31.314 +06 [123500] DEBUG add_listen: 127.0.0.1:6432
+2022-02-28 12:13:31.314 +06 [123500] LOG listening on 127.0.0.1:6432
+2022-02-28 12:13:31.314 +06 [123500] DEBUG add_listen: unix:/tmp/.s.PGSQL.6432
+2022-02-28 12:13:31.314 +06 [123500] LOG listening on unix:/tmp/.s.PGSQL.6432
+2022-02-28 12:13:31.314 +06 [123500] LOG process up: PgBouncer 1.16.1, libevent 2.1.11-stable (epoll), adns: evdns2, tls: OpenSSL 1.1.1f  31 Mar 2020
+2022-02-28 12:13:50.134 +06 [123500] LOG got SIGINT, shutting down
+2022-02-28 12:13:50.316 +06 [123500] LOG server connections dropped, exiting
+2022-02-28 12:13:54.896 +06 [123796] LOG kernel file descriptor limit: 1024 (hard: 1048576); max_client_conn: 100, max expected fd use: 192
+2022-02-28 12:13:54.896 +06 [123796] LOG listening on 127.0.0.1:6432
+2022-02-28 12:13:54.896 +06 [123796] LOG listening on unix:/tmp/.s.PGSQL.6432
+2022-02-28 12:13:54.896 +06 [123796] LOG process up: PgBouncer 1.16.1, libevent 2.1.11-stable (epoll), adns: evdns2, tls: OpenSSL 1.1.1f  31 Mar 2020
+2022-02-28 12:14:03.147 +06 [123796] LOG C-0x55f01feb5080: test/rakib@127.0.0.1:45548 login attempt: db=test user=rakib tls=no
+2022-02-28 12:14:09.601 +06 [123796] LOG C-0x55f01feb5080: test/rakib@127.0.0.1:45550 login attempt: db=test user=rakib tls=no
+2022-02-28 12:14:09.601 +06 [123796] LOG S-0x55f01febbe00: test/rakib@127.0.0.1:5432 new connection to server (from 127.0.0.1:34938)
+2022-02-28 12:14:54.900 +06 [123796] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 411 us
+2022-02-28 12:15:21.193 +06 [125055] FATAL unix socket is in use, cannot continue
+2022-02-28 12:15:42.440 +06 [125408] DEBUG parse_ini_file: 'logfile' = 'pgbouncer.log' ok:1
+2022-02-28 12:15:42.440 +06 [125408] DEBUG parse_ini_file: 'pidfile' = 'pgbouncer.pid'
+2022-02-28 12:15:42.440 +06 [125408] DEBUG parse_ini_file: 'pidfile' = 'pgbouncer.pid' ok:1
+2022-02-28 12:15:42.440 +06 [125408] DEBUG parse_ini_file: 'admin_users' = 'postgres, rakib'
+2022-02-28 12:15:42.440 +06 [125408] DEBUG parse_ini_file: 'admin_users' = 'postgres, rakib' ok:1
+2022-02-28 12:15:42.440 +06 [125408] DEBUG loading auth_file: "userlist.txt"
+2022-02-28 12:15:42.440 +06 [125408] DEBUG pktbuf_dynamic(128): 0x55cb9fcbed50
+2022-02-28 12:15:42.440 +06 [125408] DEBUG make_room(0x55cb9fcbed50, 9): realloc newlen=256
+2022-02-28 12:15:42.440 +06 [125408] DEBUG pktbuf_dynamic(128): 0x55cb9fcbea40
+2022-02-28 12:15:42.441 +06 [125408] FATAL unix socket is in use, cannot continue
+2022-02-28 12:15:54.899 +06 [123796] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 12:16:39.342 +06 [126385] DEBUG parse_ini_file: 'logfile' = 'pgbouncer.log' ok:1
+2022-02-28 12:16:39.342 +06 [126385] DEBUG parse_ini_file: 'pidfile' = 'pgbouncer.pid'
+2022-02-28 12:16:39.342 +06 [126385] DEBUG parse_ini_file: 'pidfile' = 'pgbouncer.pid' ok:1
+2022-02-28 12:16:39.342 +06 [126385] DEBUG parse_ini_file: 'admin_users' = 'postgres, rakib'
+2022-02-28 12:16:39.342 +06 [126385] DEBUG parse_ini_file: 'admin_users' = 'postgres, rakib' ok:1
+2022-02-28 12:16:39.342 +06 [126385] DEBUG loading auth_file: "userlist.txt"
+2022-02-28 12:16:39.344 +06 [126385] DEBUG pktbuf_dynamic(128): 0x557462faad50
+2022-02-28 12:16:39.344 +06 [126385] DEBUG make_room(0x557462faad50, 9): realloc newlen=256
+2022-02-28 12:16:39.344 +06 [126385] DEBUG pktbuf_dynamic(128): 0x557462faaa40
+2022-02-28 12:16:39.344 +06 [126385] LOG stale pidfile, removing
+2022-02-28 12:16:39.344 +06 [126385] LOG kernel file descriptor limit: 1024 (hard: 1048576); max_client_conn: 100, max expected fd use: 192
+2022-02-28 12:16:39.344 +06 [126385] DEBUG adns_create_context: evdns2
+2022-02-28 12:16:39.344 +06 [126385] DEBUG add_listen: 127.0.0.1:6432
+2022-02-28 12:16:39.344 +06 [126385] LOG listening on 127.0.0.1:6432
+2022-02-28 12:16:39.344 +06 [126385] DEBUG add_listen: unix:/tmp/.s.PGSQL.6432
+2022-02-28 12:16:39.344 +06 [126385] LOG listening on unix:/tmp/.s.PGSQL.6432
+2022-02-28 12:16:39.344 +06 [126385] LOG process up: PgBouncer 1.16.1, libevent 2.1.11-stable (epoll), adns: evdns2, tls: OpenSSL 1.1.1f  31 Mar 2020
+2022-02-28 12:17:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 12:18:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 12:19:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 12:20:39.347 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 12:21:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 12:22:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 12:23:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 12:24:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 12:25:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 12:26:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 12:27:39.347 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 12:28:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 12:29:39.347 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 12:30:39.347 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 12:31:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 12:32:39.347 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 12:33:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 12:34:39.347 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 12:35:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 12:36:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 12:37:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 12:38:39.349 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 12:39:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 12:40:39.347 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 12:41:39.349 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 12:42:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 12:43:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 12:44:39.347 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 12:45:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 12:46:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 12:47:39.346 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 12:48:39.344 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 12:49:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 12:50:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 12:51:39.349 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 12:52:39.349 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 12:53:39.347 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 12:54:39.347 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 12:55:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 12:56:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 12:57:39.347 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 12:58:39.347 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 12:59:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 13:00:39.347 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 13:01:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 13:02:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 13:03:39.347 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 13:04:39.347 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 13:05:39.347 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 13:06:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 13:07:39.347 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 13:08:39.350 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 13:09:39.350 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 13:10:39.349 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 13:11:39.349 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 13:12:39.349 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 13:13:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 13:14:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 13:15:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 13:16:39.350 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 13:17:39.350 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 13:18:39.349 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 13:19:39.347 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 13:20:39.349 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 13:21:39.350 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 13:22:39.350 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 13:23:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 13:24:39.347 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 13:25:39.349 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 13:26:39.350 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 13:27:39.349 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 13:28:39.349 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 13:29:39.349 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 13:30:39.349 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 13:31:39.349 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 13:32:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 13:33:39.347 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 13:34:39.350 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 13:35:39.350 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 13:36:39.347 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 13:37:39.347 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 13:38:39.350 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 13:39:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 13:40:39.350 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 13:41:39.347 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 13:42:39.347 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 13:43:39.347 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 13:44:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 13:45:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 13:46:39.347 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 13:47:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 13:48:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 13:49:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 13:50:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 13:51:39.349 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 13:52:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 13:53:39.350 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 13:54:39.349 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 13:55:39.349 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 13:56:39.349 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 13:57:39.344 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 13:58:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 13:59:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 14:00:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 14:01:39.347 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 14:02:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 14:03:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 14:04:39.349 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 14:05:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 14:06:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 14:07:39.350 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 14:08:39.350 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 14:09:39.347 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 14:10:39.347 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 14:11:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 14:12:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 14:13:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 14:14:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 14:15:39.350 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 14:16:39.344 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 14:17:39.343 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 14:18:39.344 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 14:19:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 14:20:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 14:21:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 14:22:39.347 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 14:23:39.347 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 14:24:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 14:25:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 14:26:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 14:27:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 14:28:39.349 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 14:29:39.349 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 14:30:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 14:31:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 14:32:39.349 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 14:33:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 14:34:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 14:35:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 14:36:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 14:37:39.347 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 14:38:39.350 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 14:39:39.347 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 14:40:39.347 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 14:41:39.349 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 14:42:39.349 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 14:43:39.350 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 14:44:39.347 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 14:45:39.350 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 14:46:39.350 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 14:47:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 14:48:39.344 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 14:49:39.344 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 14:50:39.346 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 14:51:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 14:52:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 14:53:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 14:54:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 14:55:39.347 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 14:56:39.347 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 14:57:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 14:58:39.343 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 14:59:39.344 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 15:00:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 15:01:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 15:02:39.349 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 15:03:39.347 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 15:04:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 15:05:39.347 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 15:06:39.350 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 15:07:39.349 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 15:08:39.347 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 15:09:39.350 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 15:10:39.347 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 15:11:39.350 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 15:12:39.350 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 15:13:39.350 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 15:14:39.349 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 15:15:39.349 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 15:16:39.349 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 15:17:39.349 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 15:18:39.349 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 15:19:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 15:20:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 15:21:39.349 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 15:22:39.349 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 15:23:39.350 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 15:24:39.350 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 15:25:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 15:26:39.350 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 15:27:39.349 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 15:28:39.349 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 15:29:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 15:30:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 15:31:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 15:32:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 15:33:39.345 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 15:34:39.347 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 15:35:39.349 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 15:36:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 15:37:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 15:38:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 15:39:39.344 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 15:40:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 15:41:39.347 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 15:42:39.349 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 15:43:39.350 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 15:44:39.349 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 15:45:39.347 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 15:46:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 15:47:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 15:48:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 15:49:39.347 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 15:50:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 15:51:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 15:52:39.346 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 15:53:39.344 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 15:54:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 15:55:39.347 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 15:56:39.349 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 15:57:39.350 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 15:58:39.350 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 15:59:39.347 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 16:00:39.350 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 16:01:39.350 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 16:02:39.349 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 16:03:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 16:04:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 16:05:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 16:06:39.350 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 16:07:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 16:08:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 16:09:39.349 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 16:10:39.347 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 16:11:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 16:12:39.350 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 16:13:39.349 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 16:14:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 16:15:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 16:16:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 16:17:39.350 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 16:18:39.347 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 16:19:39.345 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 16:20:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 16:21:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 16:22:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 16:23:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 16:24:39.347 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 16:25:39.347 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 16:26:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 16:27:39.347 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 16:28:39.344 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 16:29:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 16:30:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 16:31:39.347 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 16:32:39.349 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 16:33:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 16:34:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 16:35:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 16:36:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 16:37:39.349 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 16:38:39.350 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 16:39:39.349 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 16:40:39.349 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 16:41:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 16:42:39.349 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 16:43:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 16:44:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 16:45:39.349 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 16:46:39.349 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 16:47:39.349 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 16:48:39.347 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 16:49:39.349 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 16:50:39.349 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 16:51:39.349 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 16:52:39.349 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 16:53:39.349 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 16:54:39.347 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 16:55:39.347 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 16:56:39.347 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 16:57:39.350 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 16:58:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 16:59:39.350 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 17:00:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 17:01:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 17:02:39.350 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 17:03:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 17:04:39.347 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 17:05:39.350 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 17:06:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 17:07:39.343 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 17:08:39.344 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 17:09:39.347 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 17:10:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 17:11:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 17:12:39.347 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 17:13:39.344 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 17:14:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 17:15:39.347 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 17:16:39.349 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 17:17:39.349 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 17:18:39.347 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 17:19:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 17:20:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 17:21:39.344 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 17:22:39.349 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 17:23:39.347 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 17:24:39.347 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 17:25:39.350 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 17:26:39.350 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 17:27:39.349 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 17:28:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 17:29:39.349 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 17:30:39.349 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 17:31:39.350 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 17:32:39.347 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 17:33:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 17:34:39.347 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 17:35:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 17:36:39.349 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 17:37:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 17:38:39.349 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 17:39:39.349 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 17:40:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 17:41:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 17:42:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 17:43:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 17:44:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 17:45:39.349 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 17:46:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 17:47:39.349 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 17:48:39.350 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 17:49:39.349 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 17:50:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 17:51:39.351 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 17:52:39.347 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 17:53:39.344 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 17:54:39.347 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 17:55:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 17:56:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 17:57:39.347 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 17:58:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 17:59:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 18:00:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 18:01:39.347 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 18:02:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 18:03:39.347 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 18:04:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 18:05:39.347 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 18:06:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 18:07:39.350 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 18:08:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 18:09:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 18:10:39.347 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 18:11:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 18:12:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 18:13:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 18:14:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 18:15:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 18:16:39.349 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 18:17:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 18:18:39.349 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 18:19:39.349 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 18:20:39.349 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 18:21:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 18:22:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 18:23:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 18:24:39.347 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 18:25:39.349 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 18:26:39.349 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 18:27:39.349 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 18:28:39.347 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 18:29:39.350 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 18:30:39.350 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 18:31:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 18:32:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 18:33:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 18:34:39.345 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 18:35:39.343 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 18:36:39.347 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 18:37:39.347 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 18:38:39.347 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 18:39:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 18:40:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 18:41:39.347 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 18:42:39.347 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 18:43:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 18:44:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 18:45:39.348 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 18:46:39.349 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 18:47:39.349 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 18:48:39.349 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 18:49:39.350 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 18:50:39.350 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 18:51:39.350 +06 [126385] LOG stats: 0 xacts/s, 0 queries/s, in 0 B/s, out 0 B/s, xact 0 us, query 0 us, wait 0 us
+2022-02-28 18:51:50.455 +06 [126385] LOG got SIGHUP, re-reading config
+2022-02-28 18:51:50.455 +06 [126385] DEBUG parse_ini_file: [databases]
+2022-02-28 18:51:50.455 +06 [126385] DEBUG parse_ini_file: 'postgres' = 'host=127.0.0.1 port=5432 dbname=postgres'
+2022-02-28 18:51:50.455 +06 [126385] DEBUG parse_ini_file: 'postgres' = 'host=127.0.0.1 port=5432 dbname=postgres' ok:1
+2022-02-28 18:51:50.455 +06 [126385] DEBUG parse_ini_file: 'test' = 'host=localhost port=5432 dbname=test'
+2022-02-28 18:51:50.455 +06 [126385] DEBUG parse_ini_file: 'test' = 'host=localhost port=5432 dbname=test' ok:1
+2022-02-28 18:51:50.455 +06 [126385] DEBUG parse_ini_file: [pgbouncer]
+2022-02-28 18:51:50.455 +06 [126385] DEBUG parse_ini_file: 'listen_port' = '6432'
+2022-02-28 18:51:50.455 +06 [126385] DEBUG parse_ini_file: 'listen_port' = '6432' ok:1
+2022-02-28 18:51:50.455 +06 [126385] DEBUG parse_ini_file: 'listen_addr' = 'localhost'
+2022-02-28 18:51:50.455 +06 [126385] DEBUG parse_ini_file: 'listen_addr' = 'localhost' ok:1
+2022-02-28 18:51:50.455 +06 [126385] DEBUG parse_ini_file: 'auth_type' = 'md5'
+2022-02-28 18:51:50.455 +06 [126385] DEBUG parse_ini_file: 'auth_type' = 'md5' ok:1
+2022-02-28 18:51:50.455 +06 [126385] DEBUG parse_ini_file: 'auth_file' = 'userlist.txt'
+2022-02-28 18:51:50.455 +06 [126385] DEBUG parse_ini_file: 'auth_file' = 'userlist.txt' ok:1
+2022-02-28 18:51:50.455 +06 [126385] DEBUG parse_ini_file: 'logfile' = 'pgbouncer.log'
+2022-02-28 18:51:50.455 +06 [126385] DEBUG parse_ini_file: 'logfile' = 'pgbouncer.log' ok:1
+2022-02-28 18:51:50.455 +06 [126385] DEBUG parse_ini_file: 'pidfile' = 'pgbouncer.pid'
+2022-02-28 18:51:50.455 +06 [126385] DEBUG parse_ini_file: 'pidfile' = 'pgbouncer.pid' ok:1
+2022-02-28 18:51:50.455 +06 [126385] DEBUG parse_ini_file: 'admin_users' = 'postgres, rakib'
+2022-02-28 18:51:50.455 +06 [126385] DEBUG parse_ini_file: 'admin_users' = 'postgres, rakib' ok:1

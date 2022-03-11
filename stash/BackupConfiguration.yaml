@@ -1,0 +1,20 @@
+apiVersion: stash.appscode.com/v1beta1
+kind: BackupConfiguration
+metadata:
+  name: test-pg-backup
+  namespace: test
+spec:
+  schedule: "*/10 * * * *"
+  task:
+    name: postgres-backup-13.1
+  repository:
+    name: s3-repo
+  target:
+    ref:
+      apiVersion: appcatalog.appscode.com/v1alpha1
+      kind: AppBinding
+      name: test-pg
+  retentionPolicy:
+    name: keep-last-5
+    keepLast: 5
+    prune: true

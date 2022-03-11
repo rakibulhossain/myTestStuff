@@ -1,0 +1,21 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: initconfig
+  namespace: dev
+data:
+  data.sql: |
+    CREATE TABLE dashboard (
+      id bigserial,
+      version integer NOT NULL,
+      slug character varying(255) NOT NULL,
+      title character varying(255) NOT NULL,
+      data text NOT NULL,
+      org_id bigint NOT NULL,
+      created timestamp without time zone NOT NULL,
+      updated timestamp without time zone NOT NULL,
+      updated_by integer,
+      created_by integer,
+      PRIMARY KEY ("id"),
+      UNIQUE (org_id, slug)
+    );

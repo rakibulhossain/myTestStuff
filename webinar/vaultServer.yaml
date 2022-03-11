@@ -1,0 +1,37 @@
+apiVersion: kubevault.com/v1alpha1
+kind: VaultServer
+metadata:
+  name: vault
+  namespace: demo
+spec:
+  replicas: 3
+  version: "1.8.2"
+  allowedSecretEngines:
+    namespaces:
+      from: All
+    secretEngines:
+    - postgres
+  authMethods:
+  - type: kubernetes
+    path: kubernetes
+  backend:
+    raft:
+      path: "/vault/data"
+      storage:
+        storageClassName: "standard"
+        resources:
+          requests:
+            storage: 1Gi 
+  unsealer:
+    secretShares: 5
+    secretThreshold: 3
+    mode:
+      kubernetesSecret:
+        secretName: vault-keys
+  monitor:
+    agent: prometheus.io
+    prometheus:
+      exporter:
+        resources: {}
+  terminationPolicy: WipeOut
+

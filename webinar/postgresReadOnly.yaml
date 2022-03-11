@@ -1,0 +1,41 @@
+apiVersion: schema.kubedb.com/v1alpha1
+kind: PostgresDatabase
+metadata:
+  name: readonly-schema
+  namespace: "dev"
+  labels:
+    schema.kubedb.com/instance_name: schema
+spec:
+  vaultRef:
+    name: "vault"
+    namespace: "demo"
+  database:
+    serverRef:
+      name: "db-pg"
+      namespace: "db"
+    config:
+      name: "dev20"
+      params:
+      - configParameter: "default_transaction_read_only"
+        value: "on"
+  accessPolicy:
+    defaultTTL: "24h"
+    maxTTL: "24h"
+    subjects:
+    - kind: ServiceAccount
+      name: demo-pg
+      namespace: demo
+  init:
+    initialized: true
+    script:
+      configMap:
+        name: "initconfig"
+      podTemplate:
+        spec:
+          containers:
+          - env:
+            - name: "HAVE_A_TRY"
+              value: "whoo! It works"
+            name: "cnt"
+  deletionPolicy: Delete
+

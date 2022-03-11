@@ -1,0 +1,27 @@
+apiVersion: kubedb.com/v1alpha2
+kind: Postgres
+metadata:
+  name: demo-pg
+  namespace: demo
+spec:
+  version: "13.2"
+  replicas: 1
+  standbyMode: Hot
+  clientAuthMode: md5
+#  clientAuthMode: cert
+#  clientAuthMode: scram
+  sslMode: verify-full
+  storageType: Durable
+  tls:
+    issuerRef:
+      apiGroup: cert-manager.io
+      name: postgres-ca-issuer
+      kind: Issuer
+  storage:
+    storageClassName: "standard"
+    accessModes:
+      - ReadWriteOnce
+    resources:
+      requests:
+        storage: 500Mi
+  terminationPolicy: WipeOut

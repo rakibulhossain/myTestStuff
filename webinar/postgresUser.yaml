@@ -1,0 +1,29 @@
+apiVersion: schema.kubedb.com/v1alpha1
+kind: PostgresDatabase
+metadata:
+  name: demo-schema
+  namespace: "dev"
+  labels:
+    schema.kubedb.com/instance_name: schema
+spec:
+  vaultRef:
+    name: "vault"
+    namespace: "demo"
+  database:
+    serverRef:
+      name: "db-pg"
+      namespace: "db"
+    config:
+      name: "dev4"
+      params:
+      - configParameter: "default_transaction_read_only"
+        value: "off"
+  accessPolicy:
+    defaultTTL: "24h"
+    maxTTL: "24h"
+    subjects:
+    - kind: ServiceAccount
+      name: db-pg
+      namespace: db
+  deletionPolicy:  Delete
+
